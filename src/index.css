@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-ivory: #F5F2EB;
+    --bg-sand: #EAE6DD;
+    --bg-dark: #191817;
+    --bg-dark-card: #232220;
+    --text-charcoal: #20201E;
+    --text-muted: #6B6964;
+    --accent-champagne: #B7A17B;
+    --accent-gold: #C8B695;
+    --accent-deep: #8E7752;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-ivory);
+    color: var(--text-charcoal);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom editorial aesthetics */
+.editorial-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #B7A17B 0%, #E8D8BA 50%, #8E7752 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-luxury {
+  background: #EAE6DD;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-luxury:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(32, 32, 30, 0.08);
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4CCBE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B7A17B;
+}
+
+/* Subtle image overlay hover reveal */
+.image-zoom-container {
+  overflow: hidden;
+}
+.image-zoom-container img {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease;
+}
+.image-zoom-container:hover img {
+  transform: scale(1.06);
+}
+
+/* Glassmorphism */
+.glass-header {
+  background: rgba(245, 242, 235, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+.glass-header-dark {
+  background: rgba(25, 24, 23, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}

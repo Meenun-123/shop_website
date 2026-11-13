@@ -1,0 +1,2684 @@
+[
+  {
+    "id": 1,
+    "filename": "vse-photo-001.jpg",
+    "src": "/images/gallery/vse-photo-001.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 89,
+    "brightness": 141.9,
+    "mean_rgb": [
+      137.9,
+      128.1,
+      119.5
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 01"
+  },
+  {
+    "id": 2,
+    "filename": "vse-photo-002.jpg",
+    "src": "/images/gallery/vse-photo-002.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 82,
+    "brightness": 144.7,
+    "mean_rgb": [
+      137.0,
+      131.8,
+      130.0
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 01"
+  },
+  {
+    "id": 3,
+    "filename": "vse-photo-003.jpg",
+    "src": "/images/gallery/vse-photo-003.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 90,
+    "brightness": 107.3,
+    "mean_rgb": [
+      97.1,
+      95.7,
+      95.0
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 01"
+  },
+  {
+    "id": 4,
+    "filename": "vse-photo-004.jpg",
+    "src": "/images/gallery/vse-photo-004.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 93,
+    "brightness": 104.5,
+    "mean_rgb": [
+      105.1,
+      96.1,
+      86.1
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 01"
+  },
+  {
+    "id": 5,
+    "filename": "vse-photo-005.jpg",
+    "src": "/images/gallery/vse-photo-005.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 86,
+    "brightness": 143.1,
+    "mean_rgb": [
+      147.2,
+      135.7,
+      128.5
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 01"
+  },
+  {
+    "id": 6,
+    "filename": "vse-photo-006.jpg",
+    "src": "/images/gallery/vse-photo-006.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 86,
+    "brightness": 137.1,
+    "mean_rgb": [
+      125.8,
+      120.0,
+      117.8
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 02"
+  },
+  {
+    "id": 7,
+    "filename": "vse-photo-007.jpg",
+    "src": "/images/gallery/vse-photo-007.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 131,
+    "brightness": 128.6,
+    "mean_rgb": [
+      111.8,
+      114.5,
+      122.5
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 02"
+  },
+  {
+    "id": 8,
+    "filename": "vse-photo-008.jpg",
+    "src": "/images/gallery/vse-photo-008.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 131,
+    "brightness": 132.5,
+    "mean_rgb": [
+      112.6,
+      118.6,
+      129.0
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 02"
+  },
+  {
+    "id": 9,
+    "filename": "vse-photo-009.jpg",
+    "src": "/images/gallery/vse-photo-009.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 150,
+    "brightness": 118.1,
+    "mean_rgb": [
+      102.9,
+      106.1,
+      115.4
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 02"
+  },
+  {
+    "id": 10,
+    "filename": "vse-photo-010.jpg",
+    "src": "/images/gallery/vse-photo-010.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 81,
+    "brightness": 128.1,
+    "mean_rgb": [
+      126.0,
+      119.1,
+      115.0
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 02"
+  },
+  {
+    "id": 11,
+    "filename": "vse-photo-011.jpg",
+    "src": "/images/gallery/vse-photo-011.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 90,
+    "brightness": 152.6,
+    "mean_rgb": [
+      153.7,
+      145.3,
+      139.6
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 03"
+  },
+  {
+    "id": 12,
+    "filename": "vse-photo-012.jpg",
+    "src": "/images/gallery/vse-photo-012.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 87,
+    "brightness": 146.7,
+    "mean_rgb": [
+      146.9,
+      132.6,
+      120.5
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 03"
+  },
+  {
+    "id": 13,
+    "filename": "vse-photo-013.jpg",
+    "src": "/images/gallery/vse-photo-013.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 98,
+    "brightness": 124.3,
+    "mean_rgb": [
+      118.1,
+      117.1,
+      119.2
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 03"
+  },
+  {
+    "id": 14,
+    "filename": "vse-photo-014.jpg",
+    "src": "/images/gallery/vse-photo-014.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 150,
+    "brightness": 136.1,
+    "mean_rgb": [
+      130.8,
+      122.0,
+      115.3
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 03"
+  },
+  {
+    "id": 15,
+    "filename": "vse-photo-015.jpg",
+    "src": "/images/gallery/vse-photo-015.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 92,
+    "brightness": 122.5,
+    "mean_rgb": [
+      113.3,
+      105.7,
+      95.8
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 03"
+  },
+  {
+    "id": 16,
+    "filename": "vse-photo-016.jpg",
+    "src": "/images/gallery/vse-photo-016.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 251,
+    "brightness": 143.4,
+    "mean_rgb": [
+      129.8,
+      120.1,
+      116.1
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 04"
+  },
+  {
+    "id": 17,
+    "filename": "vse-photo-017.jpg",
+    "src": "/images/gallery/vse-photo-017.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 260,
+    "brightness": 146.5,
+    "mean_rgb": [
+      135.2,
+      127.0,
+      124.7
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 04"
+  },
+  {
+    "id": 18,
+    "filename": "vse-photo-018.jpg",
+    "src": "/images/gallery/vse-photo-018.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 194,
+    "brightness": 159.8,
+    "mean_rgb": [
+      150.3,
+      147.1,
+      142.0
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 04"
+  },
+  {
+    "id": 19,
+    "filename": "vse-photo-019.jpg",
+    "src": "/images/gallery/vse-photo-019.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 145,
+    "brightness": 166.6,
+    "mean_rgb": [
+      148.8,
+      150.1,
+      146.5
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 04"
+  },
+  {
+    "id": 20,
+    "filename": "vse-photo-020.jpg",
+    "src": "/images/gallery/vse-photo-020.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 93,
+    "brightness": 170.6,
+    "mean_rgb": [
+      153.3,
+      149.1,
+      143.5
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 04"
+  },
+  {
+    "id": 21,
+    "filename": "vse-photo-021.jpg",
+    "src": "/images/gallery/vse-photo-021.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 147,
+    "brightness": 179.8,
+    "mean_rgb": [
+      165.1,
+      162.0,
+      161.7
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 05"
+  },
+  {
+    "id": 22,
+    "filename": "vse-photo-022.jpg",
+    "src": "/images/gallery/vse-photo-022.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 117,
+    "brightness": 194.9,
+    "mean_rgb": [
+      185.4,
+      185.5,
+      183.2
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 05"
+  },
+  {
+    "id": 23,
+    "filename": "vse-photo-023.jpg",
+    "src": "/images/gallery/vse-photo-023.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 108,
+    "brightness": 171.2,
+    "mean_rgb": [
+      151.4,
+      148.8,
+      144.2
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 05"
+  },
+  {
+    "id": 24,
+    "filename": "vse-photo-024.jpg",
+    "src": "/images/gallery/vse-photo-024.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 126,
+    "brightness": 167.5,
+    "mean_rgb": [
+      148.2,
+      145.4,
+      142.1
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 05"
+  },
+  {
+    "id": 25,
+    "filename": "vse-photo-025.jpg",
+    "src": "/images/gallery/vse-photo-025.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 150,
+    "brightness": 188.7,
+    "mean_rgb": [
+      176.0,
+      173.6,
+      172.0
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 05"
+  },
+  {
+    "id": 26,
+    "filename": "vse-photo-026.jpg",
+    "src": "/images/gallery/vse-photo-026.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 160,
+    "brightness": 184.3,
+    "mean_rgb": [
+      174.7,
+      168.6,
+      165.2
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 06"
+  },
+  {
+    "id": 27,
+    "filename": "vse-photo-027.jpg",
+    "src": "/images/gallery/vse-photo-027.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 145,
+    "brightness": 185.6,
+    "mean_rgb": [
+      177.0,
+      169.2,
+      162.4
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 06"
+  },
+  {
+    "id": 28,
+    "filename": "vse-photo-028.jpg",
+    "src": "/images/gallery/vse-photo-028.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 108,
+    "brightness": 171.6,
+    "mean_rgb": [
+      155.8,
+      139.4,
+      121.2
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 06"
+  },
+  {
+    "id": 29,
+    "filename": "vse-photo-029.jpg",
+    "src": "/images/gallery/vse-photo-029.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 80,
+    "brightness": 166.2,
+    "mean_rgb": [
+      154.6,
+      128.4,
+      107.5
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 06"
+  },
+  {
+    "id": 30,
+    "filename": "vse-photo-030.jpg",
+    "src": "/images/gallery/vse-photo-030.jpg",
+    "width": 1600,
+    "height": 1371,
+    "aspect": "landscape",
+    "orig_size_kb": 115,
+    "brightness": 198.3,
+    "mean_rgb": [
+      195.6,
+      193.7,
+      190.1
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 06"
+  },
+  {
+    "id": 31,
+    "filename": "vse-photo-031.jpg",
+    "src": "/images/gallery/vse-photo-031.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 111,
+    "brightness": 160.0,
+    "mean_rgb": [
+      139.4,
+      123.8,
+      110.8
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 07"
+  },
+  {
+    "id": 32,
+    "filename": "vse-photo-032.jpg",
+    "src": "/images/gallery/vse-photo-032.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 115,
+    "brightness": 164.3,
+    "mean_rgb": [
+      148.6,
+      129.0,
+      113.0
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 07"
+  },
+  {
+    "id": 33,
+    "filename": "vse-photo-033.jpg",
+    "src": "/images/gallery/vse-photo-033.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 85,
+    "brightness": 151.5,
+    "mean_rgb": [
+      132.6,
+      110.0,
+      89.8
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 07"
+  },
+  {
+    "id": 34,
+    "filename": "vse-photo-034.jpg",
+    "src": "/images/gallery/vse-photo-034.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 102,
+    "brightness": 169.6,
+    "mean_rgb": [
+      163.8,
+      136.7,
+      113.6
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 07"
+  },
+  {
+    "id": 35,
+    "filename": "vse-photo-035.jpg",
+    "src": "/images/gallery/vse-photo-035.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 128,
+    "brightness": 158.5,
+    "mean_rgb": [
+      128.8,
+      114.1,
+      109.0
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 07"
+  },
+  {
+    "id": 36,
+    "filename": "vse-photo-036.jpg",
+    "src": "/images/gallery/vse-photo-036.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 89,
+    "brightness": 172.6,
+    "mean_rgb": [
+      154.4,
+      137.1,
+      121.4
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 08"
+  },
+  {
+    "id": 37,
+    "filename": "vse-photo-037.jpg",
+    "src": "/images/gallery/vse-photo-037.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 118,
+    "brightness": 169.8,
+    "mean_rgb": [
+      164.8,
+      138.6,
+      113.6
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 08"
+  },
+  {
+    "id": 38,
+    "filename": "vse-photo-038.jpg",
+    "src": "/images/gallery/vse-photo-038.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 93,
+    "brightness": 165.7,
+    "mean_rgb": [
+      142.1,
+      127.7,
+      112.9
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 08"
+  },
+  {
+    "id": 39,
+    "filename": "vse-photo-039.jpg",
+    "src": "/images/gallery/vse-photo-039.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 123,
+    "brightness": 161.4,
+    "mean_rgb": [
+      159.9,
+      130.0,
+      101.3
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 08"
+  },
+  {
+    "id": 40,
+    "filename": "vse-photo-040.jpg",
+    "src": "/images/gallery/vse-photo-040.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 57,
+    "brightness": 200.3,
+    "mean_rgb": [
+      187.9,
+      187.4,
+      182.5
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 08"
+  },
+  {
+    "id": 41,
+    "filename": "vse-photo-041.jpg",
+    "src": "/images/gallery/vse-photo-041.jpg",
+    "width": 722,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 122,
+    "brightness": 154.7,
+    "mean_rgb": [
+      142.8,
+      121.5,
+      97.6
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 09"
+  },
+  {
+    "id": 42,
+    "filename": "vse-photo-042.jpg",
+    "src": "/images/gallery/vse-photo-042.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 63,
+    "brightness": 147.9,
+    "mean_rgb": [
+      131.6,
+      129.4,
+      126.8
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 09"
+  },
+  {
+    "id": 43,
+    "filename": "vse-photo-043.jpg",
+    "src": "/images/gallery/vse-photo-043.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 78,
+    "brightness": 202.8,
+    "mean_rgb": [
+      195.0,
+      190.3,
+      185.1
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 09"
+  },
+  {
+    "id": 44,
+    "filename": "vse-photo-044.jpg",
+    "src": "/images/gallery/vse-photo-044.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 57,
+    "brightness": 199.5,
+    "mean_rgb": [
+      177.8,
+      176.2,
+      178.6
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 09"
+  },
+  {
+    "id": 45,
+    "filename": "vse-photo-045.jpg",
+    "src": "/images/gallery/vse-photo-045.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 77,
+    "brightness": 200.3,
+    "mean_rgb": [
+      193.0,
+      183.7,
+      179.6
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 09"
+  },
+  {
+    "id": 46,
+    "filename": "vse-photo-046.jpg",
+    "src": "/images/gallery/vse-photo-046.jpg",
+    "width": 735,
+    "height": 478,
+    "aspect": "landscape",
+    "orig_size_kb": 23,
+    "brightness": 122.5,
+    "mean_rgb": [
+      107.4,
+      107.8,
+      101.9
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 10"
+  },
+  {
+    "id": 47,
+    "filename": "vse-photo-047.jpg",
+    "src": "/images/gallery/vse-photo-047.jpg",
+    "width": 738,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 81,
+    "brightness": 194.8,
+    "mean_rgb": [
+      182.0,
+      178.2,
+      175.2
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 10"
+  },
+  {
+    "id": 48,
+    "filename": "vse-photo-048.jpg",
+    "src": "/images/gallery/vse-photo-048.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 62,
+    "brightness": 133.3,
+    "mean_rgb": [
+      107.6,
+      106.6,
+      112.8
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 10"
+  },
+  {
+    "id": 49,
+    "filename": "vse-photo-049.jpg",
+    "src": "/images/gallery/vse-photo-049.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 58,
+    "brightness": 206.1,
+    "mean_rgb": [
+      197.8,
+      194.7,
+      193.4
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 10"
+  },
+  {
+    "id": 50,
+    "filename": "vse-photo-050.jpg",
+    "src": "/images/gallery/vse-photo-050.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 53,
+    "brightness": 222.7,
+    "mean_rgb": [
+      210.5,
+      209.7,
+      211.8
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 10"
+  },
+  {
+    "id": 51,
+    "filename": "vse-photo-051.jpg",
+    "src": "/images/gallery/vse-photo-051.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 78,
+    "brightness": 212.6,
+    "mean_rgb": [
+      204.6,
+      201.4,
+      195.9
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 11"
+  },
+  {
+    "id": 52,
+    "filename": "vse-photo-052.jpg",
+    "src": "/images/gallery/vse-photo-052.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 73,
+    "brightness": 156.5,
+    "mean_rgb": [
+      156.9,
+      143.8,
+      132.3
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 11"
+  },
+  {
+    "id": 53,
+    "filename": "vse-photo-053.jpg",
+    "src": "/images/gallery/vse-photo-053.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 74,
+    "brightness": 148.7,
+    "mean_rgb": [
+      140.9,
+      128.8,
+      114.8
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 11"
+  },
+  {
+    "id": 54,
+    "filename": "vse-photo-054.jpg",
+    "src": "/images/gallery/vse-photo-054.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 44,
+    "brightness": 187.1,
+    "mean_rgb": [
+      174.1,
+      172.9,
+      165.6
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 11"
+  },
+  {
+    "id": 55,
+    "filename": "vse-photo-055.jpg",
+    "src": "/images/gallery/vse-photo-055.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 88,
+    "brightness": 144.4,
+    "mean_rgb": [
+      139.9,
+      128.6,
+      111.3
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 11"
+  },
+  {
+    "id": 56,
+    "filename": "vse-photo-056.jpg",
+    "src": "/images/gallery/vse-photo-056.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 92,
+    "brightness": 146.8,
+    "mean_rgb": [
+      138.3,
+      128.0,
+      114.0
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 12"
+  },
+  {
+    "id": 57,
+    "filename": "vse-photo-057.jpg",
+    "src": "/images/gallery/vse-photo-057.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 153,
+    "brightness": 143.9,
+    "mean_rgb": [
+      126.1,
+      123.3,
+      122.7
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 12"
+  },
+  {
+    "id": 58,
+    "filename": "vse-photo-058.jpg",
+    "src": "/images/gallery/vse-photo-058.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 82,
+    "brightness": 150.3,
+    "mean_rgb": [
+      148.0,
+      133.5,
+      106.7
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 12"
+  },
+  {
+    "id": 59,
+    "filename": "vse-photo-059.jpg",
+    "src": "/images/gallery/vse-photo-059.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 125,
+    "brightness": 175.3,
+    "mean_rgb": [
+      164.9,
+      159.7,
+      156.1
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 12"
+  },
+  {
+    "id": 60,
+    "filename": "vse-photo-060.jpg",
+    "src": "/images/gallery/vse-photo-060.jpg",
+    "width": 1600,
+    "height": 1371,
+    "aspect": "landscape",
+    "orig_size_kb": 148,
+    "brightness": 137.3,
+    "mean_rgb": [
+      101.6,
+      124.5,
+      126.6
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 12"
+  },
+  {
+    "id": 61,
+    "filename": "vse-photo-061.jpg",
+    "src": "/images/gallery/vse-photo-061.jpg",
+    "width": 1599,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 207,
+    "brightness": 136.9,
+    "mean_rgb": [
+      160.5,
+      108.4,
+      90.6
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 13"
+  },
+  {
+    "id": 62,
+    "filename": "vse-photo-062.jpg",
+    "src": "/images/gallery/vse-photo-062.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 125,
+    "brightness": 174.9,
+    "mean_rgb": [
+      166.6,
+      160.3,
+      155.3
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 13"
+  },
+  {
+    "id": 63,
+    "filename": "vse-photo-063.jpg",
+    "src": "/images/gallery/vse-photo-063.jpg",
+    "width": 864,
+    "height": 1152,
+    "aspect": "portrait",
+    "orig_size_kb": 107,
+    "brightness": 127.4,
+    "mean_rgb": [
+      119.8,
+      117.2,
+      110.4
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 13"
+  },
+  {
+    "id": 64,
+    "filename": "vse-photo-064.jpg",
+    "src": "/images/gallery/vse-photo-064.jpg",
+    "width": 1599,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 198,
+    "brightness": 106.6,
+    "mean_rgb": [
+      91.8,
+      91.7,
+      77.5
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 13"
+  },
+  {
+    "id": 65,
+    "filename": "vse-photo-065.jpg",
+    "src": "/images/gallery/vse-photo-065.jpg",
+    "width": 1599,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 205,
+    "brightness": 122.3,
+    "mean_rgb": [
+      165.4,
+      89.7,
+      67.0
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 13"
+  },
+  {
+    "id": 66,
+    "filename": "vse-photo-066.jpg",
+    "src": "/images/gallery/vse-photo-066.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 200,
+    "brightness": 151.5,
+    "mean_rgb": [
+      138.0,
+      134.9,
+      132.7
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 14"
+  },
+  {
+    "id": 67,
+    "filename": "vse-photo-067.jpg",
+    "src": "/images/gallery/vse-photo-067.jpg",
+    "width": 1200,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 414,
+    "brightness": 126.3,
+    "mean_rgb": [
+      126.9,
+      114.5,
+      100.3
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 14"
+  },
+  {
+    "id": 68,
+    "filename": "vse-photo-068.jpg",
+    "src": "/images/gallery/vse-photo-068.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 156,
+    "brightness": 161.0,
+    "mean_rgb": [
+      143.8,
+      140.2,
+      137.2
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 14"
+  },
+  {
+    "id": 69,
+    "filename": "vse-photo-069.jpg",
+    "src": "/images/gallery/vse-photo-069.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 143,
+    "brightness": 160.3,
+    "mean_rgb": [
+      142.5,
+      139.6,
+      136.8
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 14"
+  },
+  {
+    "id": 70,
+    "filename": "vse-photo-070.jpg",
+    "src": "/images/gallery/vse-photo-070.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 159,
+    "brightness": 151.5,
+    "mean_rgb": [
+      130.3,
+      127.2,
+      125.8
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 14"
+  },
+  {
+    "id": 71,
+    "filename": "vse-photo-071.jpg",
+    "src": "/images/gallery/vse-photo-071.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 79,
+    "brightness": 161.3,
+    "mean_rgb": [
+      147.4,
+      144.4,
+      137.6
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 15"
+  },
+  {
+    "id": 72,
+    "filename": "vse-photo-072.jpg",
+    "src": "/images/gallery/vse-photo-072.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 178,
+    "brightness": 162.8,
+    "mean_rgb": [
+      147.6,
+      145.9,
+      145.3
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 15"
+  },
+  {
+    "id": 73,
+    "filename": "vse-photo-073.jpg",
+    "src": "/images/gallery/vse-photo-073.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 166,
+    "brightness": 127.3,
+    "mean_rgb": [
+      116.9,
+      114.6,
+      107.5
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 15"
+  },
+  {
+    "id": 74,
+    "filename": "vse-photo-074.jpg",
+    "src": "/images/gallery/vse-photo-074.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 226,
+    "brightness": 140.4,
+    "mean_rgb": [
+      134.4,
+      132.8,
+      132.2
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 15"
+  },
+  {
+    "id": 75,
+    "filename": "vse-photo-075.jpg",
+    "src": "/images/gallery/vse-photo-075.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 95,
+    "brightness": 155.2,
+    "mean_rgb": [
+      143.4,
+      140.3,
+      135.6
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 15"
+  },
+  {
+    "id": 76,
+    "filename": "vse-photo-076.jpg",
+    "src": "/images/gallery/vse-photo-076.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 147,
+    "brightness": 164.4,
+    "mean_rgb": [
+      156.6,
+      151.5,
+      153.9
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 16"
+  },
+  {
+    "id": 77,
+    "filename": "vse-photo-077.jpg",
+    "src": "/images/gallery/vse-photo-077.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 140,
+    "brightness": 129.8,
+    "mean_rgb": [
+      127.8,
+      125.2,
+      123.4
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 16"
+  },
+  {
+    "id": 78,
+    "filename": "vse-photo-078.jpg",
+    "src": "/images/gallery/vse-photo-078.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 181,
+    "brightness": 138.8,
+    "mean_rgb": [
+      135.7,
+      134.0,
+      133.5
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 16"
+  },
+  {
+    "id": 79,
+    "filename": "vse-photo-079.jpg",
+    "src": "/images/gallery/vse-photo-079.jpg",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "orig_size_kb": 136,
+    "brightness": 139.3,
+    "mean_rgb": [
+      137.7,
+      122.8,
+      113.8
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 16"
+  },
+  {
+    "id": 80,
+    "filename": "vse-photo-080.jpg",
+    "src": "/images/gallery/vse-photo-080.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 84,
+    "brightness": 163.6,
+    "mean_rgb": [
+      132.0,
+      119.9,
+      113.8
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 16"
+  },
+  {
+    "id": 81,
+    "filename": "vse-photo-081.jpg",
+    "src": "/images/gallery/vse-photo-081.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 202,
+    "brightness": 130.5,
+    "mean_rgb": [
+      126.1,
+      122.9,
+      121.1
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 17"
+  },
+  {
+    "id": 82,
+    "filename": "vse-photo-082.jpg",
+    "src": "/images/gallery/vse-photo-082.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 98,
+    "brightness": 169.2,
+    "mean_rgb": [
+      153.2,
+      131.0,
+      117.1
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 17"
+  },
+  {
+    "id": 83,
+    "filename": "vse-photo-083.jpg",
+    "src": "/images/gallery/vse-photo-083.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 91,
+    "brightness": 161.3,
+    "mean_rgb": [
+      135.1,
+      117.5,
+      107.9
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 17"
+  },
+  {
+    "id": 84,
+    "filename": "vse-photo-084.jpg",
+    "src": "/images/gallery/vse-photo-084.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 112,
+    "brightness": 162.0,
+    "mean_rgb": [
+      144.7,
+      125.2,
+      112.2
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 17"
+  },
+  {
+    "id": 85,
+    "filename": "vse-photo-085.jpg",
+    "src": "/images/gallery/vse-photo-085.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 100,
+    "brightness": 163.2,
+    "mean_rgb": [
+      146.2,
+      122.1,
+      107.4
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 17"
+  },
+  {
+    "id": 86,
+    "filename": "vse-photo-086.jpg",
+    "src": "/images/gallery/vse-photo-086.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 102,
+    "brightness": 165.3,
+    "mean_rgb": [
+      143.1,
+      126.0,
+      115.5
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 18"
+  },
+  {
+    "id": 87,
+    "filename": "vse-photo-087.jpg",
+    "src": "/images/gallery/vse-photo-087.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 98,
+    "brightness": 164.3,
+    "mean_rgb": [
+      139.5,
+      125.8,
+      117.0
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 18"
+  },
+  {
+    "id": 88,
+    "filename": "vse-photo-088.jpg",
+    "src": "/images/gallery/vse-photo-088.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 96,
+    "brightness": 168.9,
+    "mean_rgb": [
+      149.2,
+      130.5,
+      118.1
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 18"
+  },
+  {
+    "id": 89,
+    "filename": "vse-photo-089.jpg",
+    "src": "/images/gallery/vse-photo-089.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 89,
+    "brightness": 162.8,
+    "mean_rgb": [
+      131.4,
+      120.4,
+      113.8
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 18"
+  },
+  {
+    "id": 90,
+    "filename": "vse-photo-090.jpg",
+    "src": "/images/gallery/vse-photo-090.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 94,
+    "brightness": 163.6,
+    "mean_rgb": [
+      134.6,
+      122.6,
+      115.4
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 18"
+  },
+  {
+    "id": 91,
+    "filename": "vse-photo-091.jpg",
+    "src": "/images/gallery/vse-photo-091.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 86,
+    "brightness": 167.6,
+    "mean_rgb": [
+      139.8,
+      126.7,
+      119.4
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 19"
+  },
+  {
+    "id": 92,
+    "filename": "vse-photo-092.jpg",
+    "src": "/images/gallery/vse-photo-092.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 95,
+    "brightness": 162.8,
+    "mean_rgb": [
+      134.7,
+      121.1,
+      113.1
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 19"
+  },
+  {
+    "id": 93,
+    "filename": "vse-photo-093.jpg",
+    "src": "/images/gallery/vse-photo-093.jpg",
+    "width": 722,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 82,
+    "brightness": 166.9,
+    "mean_rgb": [
+      134.9,
+      123.6,
+      118.3
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 19"
+  },
+  {
+    "id": 94,
+    "filename": "vse-photo-094.jpg",
+    "src": "/images/gallery/vse-photo-094.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 87,
+    "brightness": 190.4,
+    "mean_rgb": [
+      205.4,
+      171.8,
+      144.0
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 19"
+  },
+  {
+    "id": 95,
+    "filename": "vse-photo-095.jpg",
+    "src": "/images/gallery/vse-photo-095.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 95,
+    "brightness": 176.6,
+    "mean_rgb": [
+      191.6,
+      149.1,
+      123.9
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 19"
+  },
+  {
+    "id": 96,
+    "filename": "vse-photo-096.jpg",
+    "src": "/images/gallery/vse-photo-096.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 87,
+    "brightness": 203.5,
+    "mean_rgb": [
+      207.0,
+      182.1,
+      166.7
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 20"
+  },
+  {
+    "id": 97,
+    "filename": "vse-photo-097.jpg",
+    "src": "/images/gallery/vse-photo-097.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 47,
+    "brightness": 177.3,
+    "mean_rgb": [
+      148.4,
+      135.2,
+      127.4
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 20"
+  },
+  {
+    "id": 98,
+    "filename": "vse-photo-098.jpg",
+    "src": "/images/gallery/vse-photo-098.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 95,
+    "brightness": 195.6,
+    "mean_rgb": [
+      214.5,
+      178.7,
+      148.6
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 20"
+  },
+  {
+    "id": 99,
+    "filename": "vse-photo-099.jpg",
+    "src": "/images/gallery/vse-photo-099.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 51,
+    "brightness": 175.8,
+    "mean_rgb": [
+      148.7,
+      131.9,
+      122.1
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 20"
+  },
+  {
+    "id": 100,
+    "filename": "vse-photo-100.jpg",
+    "src": "/images/gallery/vse-photo-100.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 95,
+    "brightness": 183.9,
+    "mean_rgb": [
+      196.7,
+      157.1,
+      132.5
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 20"
+  },
+  {
+    "id": 101,
+    "filename": "vse-photo-101.jpg",
+    "src": "/images/gallery/vse-photo-101.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 46,
+    "brightness": 183.1,
+    "mean_rgb": [
+      155.1,
+      141.5,
+      132.7
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 21"
+  },
+  {
+    "id": 102,
+    "filename": "vse-photo-102.jpg",
+    "src": "/images/gallery/vse-photo-102.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 84,
+    "brightness": 166.3,
+    "mean_rgb": [
+      148.1,
+      126.4,
+      124.8
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 21"
+  },
+  {
+    "id": 103,
+    "filename": "vse-photo-103.jpg",
+    "src": "/images/gallery/vse-photo-103.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 86,
+    "brightness": 158.7,
+    "mean_rgb": [
+      142.2,
+      118.7,
+      117.3
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 21"
+  },
+  {
+    "id": 104,
+    "filename": "vse-photo-104.jpg",
+    "src": "/images/gallery/vse-photo-104.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 51,
+    "brightness": 127.6,
+    "mean_rgb": [
+      124.0,
+      108.6,
+      99.3
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 21"
+  },
+  {
+    "id": 105,
+    "filename": "vse-photo-105.jpg",
+    "src": "/images/gallery/vse-photo-105.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 65,
+    "brightness": 164.6,
+    "mean_rgb": [
+      139.4,
+      125.3,
+      124.0
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 21"
+  },
+  {
+    "id": 106,
+    "filename": "vse-photo-106.jpg",
+    "src": "/images/gallery/vse-photo-106.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 87,
+    "brightness": 199.2,
+    "mean_rgb": [
+      215.3,
+      182.7,
+      159.7
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 22"
+  },
+  {
+    "id": 107,
+    "filename": "vse-photo-107.jpg",
+    "src": "/images/gallery/vse-photo-107.jpg",
+    "width": 738,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 78,
+    "brightness": 130.0,
+    "mean_rgb": [
+      124.9,
+      106.6,
+      85.3
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 22"
+  },
+  {
+    "id": 108,
+    "filename": "vse-photo-108.jpg",
+    "src": "/images/gallery/vse-photo-108.jpg",
+    "width": 899,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 91,
+    "brightness": 154.1,
+    "mean_rgb": [
+      148.4,
+      138.6,
+      129.8
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 22"
+  },
+  {
+    "id": 109,
+    "filename": "vse-photo-109.jpg",
+    "src": "/images/gallery/vse-photo-109.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 201,
+    "brightness": 165.6,
+    "mean_rgb": [
+      154.6,
+      148.3,
+      143.1
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 22"
+  },
+  {
+    "id": 110,
+    "filename": "vse-photo-110.jpg",
+    "src": "/images/gallery/vse-photo-110.jpg",
+    "width": 1599,
+    "height": 899,
+    "aspect": "landscape",
+    "orig_size_kb": 100,
+    "brightness": 163.3,
+    "mean_rgb": [
+      158.5,
+      149.3,
+      140.8
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 22"
+  },
+  {
+    "id": 111,
+    "filename": "vse-photo-111.jpg",
+    "src": "/images/gallery/vse-photo-111.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 193,
+    "brightness": 169.8,
+    "mean_rgb": [
+      155.0,
+      150.9,
+      147.4
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 23"
+  },
+  {
+    "id": 112,
+    "filename": "vse-photo-112.jpg",
+    "src": "/images/gallery/vse-photo-112.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 225,
+    "brightness": 178.6,
+    "mean_rgb": [
+      164.5,
+      163.5,
+      161.1
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 23"
+  },
+  {
+    "id": 113,
+    "filename": "vse-photo-113.jpg",
+    "src": "/images/gallery/vse-photo-113.jpg",
+    "width": 1083,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 174,
+    "brightness": 191.4,
+    "mean_rgb": [
+      180.9,
+      181.2,
+      178.7
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 23"
+  },
+  {
+    "id": 114,
+    "filename": "vse-photo-114.jpg",
+    "src": "/images/gallery/vse-photo-114.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 129,
+    "brightness": 119.5,
+    "mean_rgb": [
+      117.5,
+      97.2,
+      89.2
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 23"
+  },
+  {
+    "id": 115,
+    "filename": "vse-photo-115.jpg",
+    "src": "/images/gallery/vse-photo-115.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 119,
+    "brightness": 127.1,
+    "mean_rgb": [
+      123.0,
+      106.8,
+      97.0
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 23"
+  },
+  {
+    "id": 116,
+    "filename": "vse-photo-116.jpg",
+    "src": "/images/gallery/vse-photo-116.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 113,
+    "brightness": 122.7,
+    "mean_rgb": [
+      120.9,
+      103.7,
+      93.7
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 24"
+  },
+  {
+    "id": 117,
+    "filename": "vse-photo-117.jpg",
+    "src": "/images/gallery/vse-photo-117.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 51,
+    "brightness": 138.5,
+    "mean_rgb": [
+      138.9,
+      119.4,
+      106.9
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 24"
+  },
+  {
+    "id": 118,
+    "filename": "vse-photo-118.jpg",
+    "src": "/images/gallery/vse-photo-118.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 53,
+    "brightness": 143.4,
+    "mean_rgb": [
+      144.8,
+      124.3,
+      116.7
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 24"
+  },
+  {
+    "id": 119,
+    "filename": "vse-photo-119.jpg",
+    "src": "/images/gallery/vse-photo-119.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 111,
+    "brightness": 133.7,
+    "mean_rgb": [
+      140.5,
+      110.8,
+      88.5
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 24"
+  },
+  {
+    "id": 120,
+    "filename": "vse-photo-120.jpg",
+    "src": "/images/gallery/vse-photo-120.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 121,
+    "brightness": 122.5,
+    "mean_rgb": [
+      123.7,
+      100.4,
+      79.9
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 24"
+  },
+  {
+    "id": 121,
+    "filename": "vse-photo-121.jpg",
+    "src": "/images/gallery/vse-photo-121.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 74,
+    "brightness": 153.2,
+    "mean_rgb": [
+      176.5,
+      133.3,
+      106.6
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 25"
+  },
+  {
+    "id": 122,
+    "filename": "vse-photo-122.jpg",
+    "src": "/images/gallery/vse-photo-122.jpg",
+    "width": 780,
+    "height": 1040,
+    "aspect": "portrait",
+    "orig_size_kb": 56,
+    "brightness": 145.2,
+    "mean_rgb": [
+      148.4,
+      122.6,
+      110.8
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 25"
+  },
+  {
+    "id": 123,
+    "filename": "vse-photo-123.jpg",
+    "src": "/images/gallery/vse-photo-123.jpg",
+    "width": 1040,
+    "height": 780,
+    "aspect": "landscape",
+    "orig_size_kb": 75,
+    "brightness": 113.9,
+    "mean_rgb": [
+      102.1,
+      97.3,
+      91.8
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 25"
+  },
+  {
+    "id": 124,
+    "filename": "vse-photo-124.jpg",
+    "src": "/images/gallery/vse-photo-124.jpg",
+    "width": 1040,
+    "height": 780,
+    "aspect": "landscape",
+    "orig_size_kb": 78,
+    "brightness": 115.8,
+    "mean_rgb": [
+      105.3,
+      100.6,
+      94.2
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 25"
+  },
+  {
+    "id": 125,
+    "filename": "vse-photo-125.jpg",
+    "src": "/images/gallery/vse-photo-125.jpg",
+    "width": 1040,
+    "height": 780,
+    "aspect": "landscape",
+    "orig_size_kb": 83,
+    "brightness": 113.6,
+    "mean_rgb": [
+      100.2,
+      99.8,
+      96.0
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 25"
+  },
+  {
+    "id": 126,
+    "filename": "vse-photo-126.jpg",
+    "src": "/images/gallery/vse-photo-126.jpg",
+    "width": 1040,
+    "height": 780,
+    "aspect": "landscape",
+    "orig_size_kb": 78,
+    "brightness": 115.8,
+    "mean_rgb": [
+      105.3,
+      100.6,
+      94.2
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 26"
+  },
+  {
+    "id": 127,
+    "filename": "vse-photo-127.jpg",
+    "src": "/images/gallery/vse-photo-127.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 123,
+    "brightness": 129.0,
+    "mean_rgb": [
+      125.5,
+      116.9,
+      102.5
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 26"
+  },
+  {
+    "id": 128,
+    "filename": "vse-photo-128.jpg",
+    "src": "/images/gallery/vse-photo-128.jpg",
+    "width": 899,
+    "height": 1599,
+    "aspect": "portrait",
+    "orig_size_kb": 129,
+    "brightness": 172.3,
+    "mean_rgb": [
+      154.3,
+      166.6,
+      182.4
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 26"
+  },
+  {
+    "id": 129,
+    "filename": "vse-photo-129.jpg",
+    "src": "/images/gallery/vse-photo-129.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 188,
+    "brightness": 145.2,
+    "mean_rgb": [
+      148.4,
+      122.6,
+      110.6
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 26"
+  },
+  {
+    "id": 130,
+    "filename": "vse-photo-130.jpg",
+    "src": "/images/gallery/vse-photo-130.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 173,
+    "brightness": 138.5,
+    "mean_rgb": [
+      138.8,
+      119.4,
+      106.6
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 26"
+  },
+  {
+    "id": 131,
+    "filename": "vse-photo-131.jpg",
+    "src": "/images/gallery/vse-photo-131.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 120,
+    "brightness": 143.4,
+    "mean_rgb": [
+      144.9,
+      124.3,
+      116.8
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 27"
+  },
+  {
+    "id": 132,
+    "filename": "vse-photo-132.jpg",
+    "src": "/images/gallery/vse-photo-132.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 246,
+    "brightness": 119.5,
+    "mean_rgb": [
+      117.4,
+      97.3,
+      89.3
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 27"
+  },
+  {
+    "id": 133,
+    "filename": "vse-photo-133.jpg",
+    "src": "/images/gallery/vse-photo-133.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 219,
+    "brightness": 122.8,
+    "mean_rgb": [
+      120.9,
+      103.8,
+      93.8
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 27"
+  },
+  {
+    "id": 134,
+    "filename": "vse-photo-134.jpg",
+    "src": "/images/gallery/vse-photo-134.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 232,
+    "brightness": 127.1,
+    "mean_rgb": [
+      122.9,
+      106.9,
+      97.1
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 27"
+  },
+  {
+    "id": 135,
+    "filename": "vse-photo-135.jpg",
+    "src": "/images/gallery/vse-photo-135.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 151,
+    "brightness": 131.9,
+    "mean_rgb": [
+      131.3,
+      114.2,
+      104.5
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 27"
+  },
+  {
+    "id": 136,
+    "filename": "vse-photo-136.jpg",
+    "src": "/images/gallery/vse-photo-136.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 153,
+    "brightness": 127.8,
+    "mean_rgb": [
+      121.1,
+      112.1,
+      108.0
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 28"
+  },
+  {
+    "id": 137,
+    "filename": "vse-photo-137.jpg",
+    "src": "/images/gallery/vse-photo-137.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 121,
+    "brightness": 141.3,
+    "mean_rgb": [
+      130.6,
+      120.7,
+      116.1
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 28"
+  },
+  {
+    "id": 138,
+    "filename": "vse-photo-138.jpg",
+    "src": "/images/gallery/vse-photo-138.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 108,
+    "brightness": 137.3,
+    "mean_rgb": [
+      128.2,
+      117.3,
+      113.7
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 28"
+  },
+  {
+    "id": 139,
+    "filename": "vse-photo-139.jpg",
+    "src": "/images/gallery/vse-photo-139.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 106,
+    "brightness": 159.4,
+    "mean_rgb": [
+      172.0,
+      148.0,
+      120.5
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 28"
+  },
+  {
+    "id": 140,
+    "filename": "vse-photo-140.jpg",
+    "src": "/images/gallery/vse-photo-140.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 108,
+    "brightness": 168.0,
+    "mean_rgb": [
+      145.6,
+      144.9,
+      140.6
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 28"
+  },
+  {
+    "id": 141,
+    "filename": "vse-photo-141.jpg",
+    "src": "/images/gallery/vse-photo-141.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 90,
+    "brightness": 164.6,
+    "mean_rgb": [
+      143.3,
+      142.1,
+      138.5
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 29"
+  },
+  {
+    "id": 142,
+    "filename": "vse-photo-142.jpg",
+    "src": "/images/gallery/vse-photo-142.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 117,
+    "brightness": 108.3,
+    "mean_rgb": [
+      97.7,
+      94.3,
+      90.1
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 29"
+  },
+  {
+    "id": 143,
+    "filename": "vse-photo-143.jpg",
+    "src": "/images/gallery/vse-photo-143.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 88,
+    "brightness": 167.2,
+    "mean_rgb": [
+      147.5,
+      146.4,
+      140.9
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 29"
+  },
+  {
+    "id": 144,
+    "filename": "vse-photo-144.jpg",
+    "src": "/images/gallery/vse-photo-144.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 119,
+    "brightness": 113.3,
+    "mean_rgb": [
+      110.1,
+      106.6,
+      99.9
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 29"
+  },
+  {
+    "id": 145,
+    "filename": "vse-photo-145.jpg",
+    "src": "/images/gallery/vse-photo-145.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 136,
+    "brightness": 111.5,
+    "mean_rgb": [
+      104.9,
+      99.3,
+      93.7
+    ],
+    "category": "Door Frames & Interior Hardware",
+    "tag": "Hardware & Frames",
+    "title": "Engineered Frame & Architectural Fitting 29"
+  },
+  {
+    "id": 146,
+    "filename": "vse-photo-146.jpg",
+    "src": "/images/gallery/vse-photo-146.jpg",
+    "width": 1536,
+    "height": 2048,
+    "aspect": "portrait",
+    "orig_size_kb": 138,
+    "brightness": 93.7,
+    "mean_rgb": [
+      76.8,
+      74.6,
+      69.7
+    ],
+    "category": "Premium Main Doors",
+    "tag": "Doors",
+    "title": "Bespoke Entrance Door Suite 30"
+  },
+  {
+    "id": 147,
+    "filename": "vse-photo-147.jpg",
+    "src": "/images/gallery/vse-photo-147.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 110,
+    "brightness": 165.0,
+    "mean_rgb": [
+      155.0,
+      154.6,
+      150.1
+    ],
+    "category": "Architectural Safety Grills",
+    "tag": "Grills",
+    "title": "Precision Geometric Safety Grill 30"
+  },
+  {
+    "id": 148,
+    "filename": "vse-photo-148.jpg",
+    "src": "/images/gallery/vse-photo-148.jpg",
+    "width": 540,
+    "height": 1207,
+    "aspect": "portrait",
+    "orig_size_kb": 82,
+    "brightness": 127.1,
+    "mean_rgb": [
+      90.8,
+      93.9,
+      93.0
+    ],
+    "category": "Aluminium & UPVC Windows",
+    "tag": "Windows",
+    "title": "Acoustic Glazed Window System 30"
+  },
+  {
+    "id": 149,
+    "filename": "vse-photo-149.jpg",
+    "src": "/images/gallery/vse-photo-149.jpg",
+    "width": 1200,
+    "height": 1600,
+    "aspect": "portrait",
+    "orig_size_kb": 177,
+    "brightness": 131.0,
+    "mean_rgb": [
+      112.0,
+      120.8,
+      118.3
+    ],
+    "category": "Designer Wooden & Interior Doors",
+    "tag": "Interior Doors",
+    "title": "Artisan Wood & Flush Door 30"
+  }
+]
