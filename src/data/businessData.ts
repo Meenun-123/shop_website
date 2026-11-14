@@ -62,7 +62,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Grand architectural entrance doors crafted from seasoned teak wood, modern pivot systems, and security cores.",
     fullDesc:
       "Your entrance makes the definitive statement of your home. Our main doors combine robust security engineering with sculptural woodworking, available in solid teak, contemporary pivot designs, and brass/copper metal accents.",
-    image: "/images/gallery/vse-photo-001.jpg",
+    image: "./images/gallery/vse-photo-001.jpg",
     specs: ["Burma & Teak Wood", "Heavy Pivot & Ball-bearing Hinges", "Multi-point Security Locks", "Custom Carvings & Flush Panels"],
     features: ["Weather-sealed acoustic gaskets", "Termite & moisture treated", "Custom oversized architectural heights"],
   },
@@ -73,7 +73,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Timeless natural wood grains, contemporary groove patterns, and sculpted solid timber construction.",
     fullDesc:
       "Crafted from premium kiln-dried hardwoods with hand-finished stains. Featuring minimalist horizontal grooves, geometric veneers, and classic raised paneling tailored to modern luxury residences.",
-    image: "/images/gallery/vse-photo-004.jpg",
+    image: "./images/gallery/vse-photo-004.jpg",
     specs: ["Selected Hardwoods & Veneers", "Low-VOC Polyurethane Finish", "Sound Transmission Class (STC) 34+", "Concealed Magnetic Latches"],
     features: ["Natural grain alignment", "Warp-resistant laminated core", "Choice of matte, satin, or gloss lacquer"],
   },
@@ -84,7 +84,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Sleek flush doors, minimalist acoustic bedroom doors, and textured contemporary finishes.",
     fullDesc:
       "Seamlessly integrating into contemporary interior walls. Designed with acoustic hollow or tubular cores, precision rebated edges, and soft-closing concealed mechanisms.",
-    image: "/images/gallery/vse-photo-009.jpg",
+    image: "./images/gallery/vse-photo-009.jpg",
     specs: ["Engineered Solid Core", "Frameless Flush / Architrave options", "Scratch-resistant laminate/veneer", "Concealed 3D Adjustable Hinges"],
     features: ["Acoustic dampening", "Lightweight yet structural integrity", "Minimalist European handle suites"],
   },
@@ -95,7 +95,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Ultra-slim architectural sightlines, thermal break efficiency, and panoramic floor-to-ceiling glass.",
     fullDesc:
       "Engineered with aerospace-grade aluminium extrusions and durable powder-coat or anodized finishes. Maximizes natural light while keeping out heat, wind, and monsoon rain.",
-    image: "/images/gallery/vse-photo-003.jpg",
+    image: "./images/gallery/vse-photo-003.jpg",
     specs: ["Thermal Break Aluminium 6063-T6", "Double / Triple DGU Glass", "EPDM Triple Gasket Seal", "Wind Load Certified up to 2.5 kPa"],
     features: ["Ultra-slim frame profiles", "Anodized champagne & charcoal finishes", "Smooth whisper-glide rollers"],
   },
@@ -106,7 +106,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "High-performance energy-saving UPVC casement, tilt-and-turn, and fixed glazing solutions.",
     fullDesc:
       "Engineered multi-chamber UPVC profiles with steel reinforcement. Delivers unmatched noise reduction up to 40dB, zero corrosion in coastal and humid climates, and thermal insulation that lowers cooling bills.",
-    image: "/images/gallery/vse-photo-008.jpg",
+    image: "./images/gallery/vse-photo-008.jpg",
     specs: ["Multi-chamber Lead-Free UPVC", "Galvanized Steel Reinforcements", "Acoustic Laminated Glass", "Multi-point Espagnolette Locks"],
     features: ["Maintenance-free UV stabilized", "Weatherproof rain channels", "Integrated mosquito wire mesh option"],
   },
@@ -117,7 +117,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Effortless heavy-duty 2-track and 3-track sliding systems with integrated stainless steel mesh.",
     fullDesc:
       "Ideal for expansive living room vistas and bedroom balconies. Featuring heavy-duty stainless steel tracks, precision nylon bearing rollers, and concealed multi-lock handles.",
-    image: "/images/gallery/vse-photo-013.jpg",
+    image: "./images/gallery/vse-photo-013.jpg",
     specs: ["2-Track, 3-Track & 4-Track Configurations", "SS 304 Heavy-duty Rollers", "Toughened Safety Glass (6mm - 12mm)", "Interlocking Weather Brushes"],
     features: ["Integrated flyscreen/mesh track", "High water-tightness threshold", "Smooth fingertip glide operation"],
   },
@@ -128,7 +128,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Precision laser-cut patterns, wrought iron accents, and high-tensile security grills that complement modern facades.",
     fullDesc:
       "Security meets sculptural architecture. Designed with CNC laser precision cutting, stainless steel, and powder-coated wrought iron to safeguard your home without sacrificing ventilation or aesthetics.",
-    image: "/images/gallery/vse-photo-002.jpg",
+    image: "./images/gallery/vse-photo-002.jpg",
     specs: ["SS 304 / SS 316 / Mild Steel", "CNC Laser Cut Geometrics & Floral Motifs", "Zinc Epoxy Undercoat + Electrostatic Powder Coat", "Tamper-proof Wall Anchors"],
     features: ["Rust & corrosion resistant", "Custom pattern scalability", "Seamless integration with window & door frames"],
   },
@@ -139,7 +139,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Seasoned solid wood frames, heavy UPVC/aluminium sub-frames, and premium architectural hardware.",
     fullDesc:
       "A superior door requires an immaculate frame. We manufacture precision jambs, architraves, and provide luxury hardware suites including solid brass pulls, digital mortise locks, and magnetic door stoppers.",
-    image: "/images/gallery/vse-photo-005.jpg",
+    image: "./images/gallery/vse-photo-005.jpg",
     specs: ["Teak & Sal Wood / Heavy UPVC Jambs", "Solid Brass, Matt Black & Champagne Gold Finishes", "Heavy Duty Hydraulic Concealed Closers", "Smart Digital & Biometric Locks"],
     features: ["Precision mitered corners", "Rubber acoustic rebate seals", "Long-term dimensional stability"],
   },
@@ -150,7 +150,7 @@ export const collectionsData: CollectionItem[] = [
     shortDesc: "Acoustic glass office partitions, decorative fluted paneling, and custom architectural room dividers.",
     fullDesc:
       "Transform interior spaces with tailored glass partitions, slim aluminium room dividers, and fluted architectural timber panels that divide rooms while preserving openness and natural illumination.",
-    image: "/images/gallery/vse-photo-010.jpg",
+    image: "./images/gallery/vse-photo-010.jpg",
     specs: ["Slimline Aluminium Grid Partitions", "Fluted / Frosted / Tinted Glass", "Architectural Wood Wall Paneling", "Sliding Pocket Glass Dividers"],
     features: ["Modular flexible installation", "High acoustic privacy", "Sophisticated minimalist ambiance"],
   },
@@ -163,7 +163,7 @@ export const featuredProjects: ProjectItem[] = [
     category: "Main Entrance & Safety Grills",
     location: "Gudivada, Krishna District",
     description: "Custom oversized 8.5-foot Burma teak pivot door paired with an integrated geometric laser-cut safety enclosure.",
-    image: "/images/gallery/vse-photo-006.jpg",
+    image: "./images/gallery/vse-photo-006.jpg",
     specs: ["Burma Teak", "CNC Laser Cut SS 304", "Heavy Pivot Hardware"],
   },
   {
@@ -172,7 +172,7 @@ export const featuredProjects: ProjectItem[] = [
     category: "Aluminium Glazing & Windows",
     location: "Vijayawada Outskirts",
     description: "Floor-to-ceiling slimline sliding window systems with heat-reflective solar glass and acoustic dampening.",
-    image: "/images/gallery/vse-photo-011.jpg",
+    image: "./images/gallery/vse-photo-011.jpg",
     specs: ["6063-T6 Aluminium", "DGU Acoustic Glass", "3-Track Sliding with Mesh"],
   },
   {
@@ -181,7 +181,7 @@ export const featuredProjects: ProjectItem[] = [
     category: "Interior Flush Doors & Frames",
     location: "Gudivada City Centre",
     description: "Minimalist handleless flush wooden doors with concealed magnetic latches and custom textured natural veneers.",
-    image: "/images/gallery/vse-photo-016.jpg",
+    image: "./images/gallery/vse-photo-016.jpg",
     specs: ["Engineered Solid Core", "Concealed 3D Hinges", "Matt Polyurethane Finish"],
   },
   {
@@ -190,7 +190,7 @@ export const featuredProjects: ProjectItem[] = [
     category: "UPVC Casement & Balcony Grills",
     location: "Machilipatnam Highway",
     description: "Multi-chamber UPVC French doors and weatherproof architectural safety grills overlooking landscaped courtyards.",
-    image: "/images/gallery/vse-photo-021.jpg",
+    image: "./images/gallery/vse-photo-021.jpg",
     specs: ["Multi-chamber UPVC", "Toughened 8mm Glass", "Anti-Corrosion Powder Coating"],
   },
 ];

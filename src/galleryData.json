@@ -2,7 +2,7 @@
   {
     "id": 1,
     "filename": "vse-photo-001.jpg",
-    "src": "/images/gallery/vse-photo-001.jpg",
+    "src": "./images/gallery/vse-photo-001.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -20,7 +20,7 @@
   {
     "id": 2,
     "filename": "vse-photo-002.jpg",
-    "src": "/images/gallery/vse-photo-002.jpg",
+    "src": "./images/gallery/vse-photo-002.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -38,7 +38,7 @@
   {
     "id": 3,
     "filename": "vse-photo-003.jpg",
-    "src": "/images/gallery/vse-photo-003.jpg",
+    "src": "./images/gallery/vse-photo-003.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -56,7 +56,7 @@
   {
     "id": 4,
     "filename": "vse-photo-004.jpg",
-    "src": "/images/gallery/vse-photo-004.jpg",
+    "src": "./images/gallery/vse-photo-004.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -74,7 +74,7 @@
   {
     "id": 5,
     "filename": "vse-photo-005.jpg",
-    "src": "/images/gallery/vse-photo-005.jpg",
+    "src": "./images/gallery/vse-photo-005.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -92,7 +92,7 @@
   {
     "id": 6,
     "filename": "vse-photo-006.jpg",
-    "src": "/images/gallery/vse-photo-006.jpg",
+    "src": "./images/gallery/vse-photo-006.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -110,7 +110,7 @@
   {
     "id": 7,
     "filename": "vse-photo-007.jpg",
-    "src": "/images/gallery/vse-photo-007.jpg",
+    "src": "./images/gallery/vse-photo-007.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -128,7 +128,7 @@
   {
     "id": 8,
     "filename": "vse-photo-008.jpg",
-    "src": "/images/gallery/vse-photo-008.jpg",
+    "src": "./images/gallery/vse-photo-008.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -146,7 +146,7 @@
   {
     "id": 9,
     "filename": "vse-photo-009.jpg",
-    "src": "/images/gallery/vse-photo-009.jpg",
+    "src": "./images/gallery/vse-photo-009.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -164,7 +164,7 @@
   {
     "id": 10,
     "filename": "vse-photo-010.jpg",
-    "src": "/images/gallery/vse-photo-010.jpg",
+    "src": "./images/gallery/vse-photo-010.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -182,7 +182,7 @@
   {
     "id": 11,
     "filename": "vse-photo-011.jpg",
-    "src": "/images/gallery/vse-photo-011.jpg",
+    "src": "./images/gallery/vse-photo-011.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -200,7 +200,7 @@
   {
     "id": 12,
     "filename": "vse-photo-012.jpg",
-    "src": "/images/gallery/vse-photo-012.jpg",
+    "src": "./images/gallery/vse-photo-012.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -218,7 +218,7 @@
   {
     "id": 13,
     "filename": "vse-photo-013.jpg",
-    "src": "/images/gallery/vse-photo-013.jpg",
+    "src": "./images/gallery/vse-photo-013.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -236,7 +236,7 @@
   {
     "id": 14,
     "filename": "vse-photo-014.jpg",
-    "src": "/images/gallery/vse-photo-014.jpg",
+    "src": "./images/gallery/vse-photo-014.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -254,7 +254,7 @@
   {
     "id": 15,
     "filename": "vse-photo-015.jpg",
-    "src": "/images/gallery/vse-photo-015.jpg",
+    "src": "./images/gallery/vse-photo-015.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -272,7 +272,7 @@
   {
     "id": 16,
     "filename": "vse-photo-016.jpg",
-    "src": "/images/gallery/vse-photo-016.jpg",
+    "src": "./images/gallery/vse-photo-016.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -290,7 +290,7 @@
   {
     "id": 17,
     "filename": "vse-photo-017.jpg",
-    "src": "/images/gallery/vse-photo-017.jpg",
+    "src": "./images/gallery/vse-photo-017.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -308,7 +308,7 @@
   {
     "id": 18,
     "filename": "vse-photo-018.jpg",
-    "src": "/images/gallery/vse-photo-018.jpg",
+    "src": "./images/gallery/vse-photo-018.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -326,7 +326,7 @@
   {
     "id": 19,
     "filename": "vse-photo-019.jpg",
-    "src": "/images/gallery/vse-photo-019.jpg",
+    "src": "./images/gallery/vse-photo-019.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -344,7 +344,7 @@
   {
     "id": 20,
     "filename": "vse-photo-020.jpg",
-    "src": "/images/gallery/vse-photo-020.jpg",
+    "src": "./images/gallery/vse-photo-020.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -362,7 +362,7 @@
   {
     "id": 21,
     "filename": "vse-photo-021.jpg",
-    "src": "/images/gallery/vse-photo-021.jpg",
+    "src": "./images/gallery/vse-photo-021.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -380,7 +380,7 @@
   {
     "id": 22,
     "filename": "vse-photo-022.jpg",
-    "src": "/images/gallery/vse-photo-022.jpg",
+    "src": "./images/gallery/vse-photo-022.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -398,7 +398,7 @@
   {
     "id": 23,
     "filename": "vse-photo-023.jpg",
-    "src": "/images/gallery/vse-photo-023.jpg",
+    "src": "./images/gallery/vse-photo-023.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -416,7 +416,7 @@
   {
     "id": 24,
     "filename": "vse-photo-024.jpg",
-    "src": "/images/gallery/vse-photo-024.jpg",
+    "src": "./images/gallery/vse-photo-024.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -434,7 +434,7 @@
   {
     "id": 25,
     "filename": "vse-photo-025.jpg",
-    "src": "/images/gallery/vse-photo-025.jpg",
+    "src": "./images/gallery/vse-photo-025.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -452,7 +452,7 @@
   {
     "id": 26,
     "filename": "vse-photo-026.jpg",
-    "src": "/images/gallery/vse-photo-026.jpg",
+    "src": "./images/gallery/vse-photo-026.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -470,7 +470,7 @@
   {
     "id": 27,
     "filename": "vse-photo-027.jpg",
-    "src": "/images/gallery/vse-photo-027.jpg",
+    "src": "./images/gallery/vse-photo-027.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -488,7 +488,7 @@
   {
     "id": 28,
     "filename": "vse-photo-028.jpg",
-    "src": "/images/gallery/vse-photo-028.jpg",
+    "src": "./images/gallery/vse-photo-028.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -506,7 +506,7 @@
   {
     "id": 29,
     "filename": "vse-photo-029.jpg",
-    "src": "/images/gallery/vse-photo-029.jpg",
+    "src": "./images/gallery/vse-photo-029.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -524,7 +524,7 @@
   {
     "id": 30,
     "filename": "vse-photo-030.jpg",
-    "src": "/images/gallery/vse-photo-030.jpg",
+    "src": "./images/gallery/vse-photo-030.jpg",
     "width": 1600,
     "height": 1371,
     "aspect": "landscape",
@@ -542,7 +542,7 @@
   {
     "id": 31,
     "filename": "vse-photo-031.jpg",
-    "src": "/images/gallery/vse-photo-031.jpg",
+    "src": "./images/gallery/vse-photo-031.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -560,7 +560,7 @@
   {
     "id": 32,
     "filename": "vse-photo-032.jpg",
-    "src": "/images/gallery/vse-photo-032.jpg",
+    "src": "./images/gallery/vse-photo-032.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -578,7 +578,7 @@
   {
     "id": 33,
     "filename": "vse-photo-033.jpg",
-    "src": "/images/gallery/vse-photo-033.jpg",
+    "src": "./images/gallery/vse-photo-033.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -596,7 +596,7 @@
   {
     "id": 34,
     "filename": "vse-photo-034.jpg",
-    "src": "/images/gallery/vse-photo-034.jpg",
+    "src": "./images/gallery/vse-photo-034.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -614,7 +614,7 @@
   {
     "id": 35,
     "filename": "vse-photo-035.jpg",
-    "src": "/images/gallery/vse-photo-035.jpg",
+    "src": "./images/gallery/vse-photo-035.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -632,7 +632,7 @@
   {
     "id": 36,
     "filename": "vse-photo-036.jpg",
-    "src": "/images/gallery/vse-photo-036.jpg",
+    "src": "./images/gallery/vse-photo-036.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -650,7 +650,7 @@
   {
     "id": 37,
     "filename": "vse-photo-037.jpg",
-    "src": "/images/gallery/vse-photo-037.jpg",
+    "src": "./images/gallery/vse-photo-037.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -668,7 +668,7 @@
   {
     "id": 38,
     "filename": "vse-photo-038.jpg",
-    "src": "/images/gallery/vse-photo-038.jpg",
+    "src": "./images/gallery/vse-photo-038.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -686,7 +686,7 @@
   {
     "id": 39,
     "filename": "vse-photo-039.jpg",
-    "src": "/images/gallery/vse-photo-039.jpg",
+    "src": "./images/gallery/vse-photo-039.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -704,7 +704,7 @@
   {
     "id": 40,
     "filename": "vse-photo-040.jpg",
-    "src": "/images/gallery/vse-photo-040.jpg",
+    "src": "./images/gallery/vse-photo-040.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -722,7 +722,7 @@
   {
     "id": 41,
     "filename": "vse-photo-041.jpg",
-    "src": "/images/gallery/vse-photo-041.jpg",
+    "src": "./images/gallery/vse-photo-041.jpg",
     "width": 722,
     "height": 1599,
     "aspect": "portrait",
@@ -740,7 +740,7 @@
   {
     "id": 42,
     "filename": "vse-photo-042.jpg",
-    "src": "/images/gallery/vse-photo-042.jpg",
+    "src": "./images/gallery/vse-photo-042.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -758,7 +758,7 @@
   {
     "id": 43,
     "filename": "vse-photo-043.jpg",
-    "src": "/images/gallery/vse-photo-043.jpg",
+    "src": "./images/gallery/vse-photo-043.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -776,7 +776,7 @@
   {
     "id": 44,
     "filename": "vse-photo-044.jpg",
-    "src": "/images/gallery/vse-photo-044.jpg",
+    "src": "./images/gallery/vse-photo-044.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -794,7 +794,7 @@
   {
     "id": 45,
     "filename": "vse-photo-045.jpg",
-    "src": "/images/gallery/vse-photo-045.jpg",
+    "src": "./images/gallery/vse-photo-045.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -812,7 +812,7 @@
   {
     "id": 46,
     "filename": "vse-photo-046.jpg",
-    "src": "/images/gallery/vse-photo-046.jpg",
+    "src": "./images/gallery/vse-photo-046.jpg",
     "width": 735,
     "height": 478,
     "aspect": "landscape",
@@ -830,7 +830,7 @@
   {
     "id": 47,
     "filename": "vse-photo-047.jpg",
-    "src": "/images/gallery/vse-photo-047.jpg",
+    "src": "./images/gallery/vse-photo-047.jpg",
     "width": 738,
     "height": 1599,
     "aspect": "portrait",
@@ -848,7 +848,7 @@
   {
     "id": 48,
     "filename": "vse-photo-048.jpg",
-    "src": "/images/gallery/vse-photo-048.jpg",
+    "src": "./images/gallery/vse-photo-048.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -866,7 +866,7 @@
   {
     "id": 49,
     "filename": "vse-photo-049.jpg",
-    "src": "/images/gallery/vse-photo-049.jpg",
+    "src": "./images/gallery/vse-photo-049.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -884,7 +884,7 @@
   {
     "id": 50,
     "filename": "vse-photo-050.jpg",
-    "src": "/images/gallery/vse-photo-050.jpg",
+    "src": "./images/gallery/vse-photo-050.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -902,7 +902,7 @@
   {
     "id": 51,
     "filename": "vse-photo-051.jpg",
-    "src": "/images/gallery/vse-photo-051.jpg",
+    "src": "./images/gallery/vse-photo-051.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -920,7 +920,7 @@
   {
     "id": 52,
     "filename": "vse-photo-052.jpg",
-    "src": "/images/gallery/vse-photo-052.jpg",
+    "src": "./images/gallery/vse-photo-052.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -938,7 +938,7 @@
   {
     "id": 53,
     "filename": "vse-photo-053.jpg",
-    "src": "/images/gallery/vse-photo-053.jpg",
+    "src": "./images/gallery/vse-photo-053.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -956,7 +956,7 @@
   {
     "id": 54,
     "filename": "vse-photo-054.jpg",
-    "src": "/images/gallery/vse-photo-054.jpg",
+    "src": "./images/gallery/vse-photo-054.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -974,7 +974,7 @@
   {
     "id": 55,
     "filename": "vse-photo-055.jpg",
-    "src": "/images/gallery/vse-photo-055.jpg",
+    "src": "./images/gallery/vse-photo-055.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -992,7 +992,7 @@
   {
     "id": 56,
     "filename": "vse-photo-056.jpg",
-    "src": "/images/gallery/vse-photo-056.jpg",
+    "src": "./images/gallery/vse-photo-056.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1010,7 +1010,7 @@
   {
     "id": 57,
     "filename": "vse-photo-057.jpg",
-    "src": "/images/gallery/vse-photo-057.jpg",
+    "src": "./images/gallery/vse-photo-057.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -1028,7 +1028,7 @@
   {
     "id": 58,
     "filename": "vse-photo-058.jpg",
-    "src": "/images/gallery/vse-photo-058.jpg",
+    "src": "./images/gallery/vse-photo-058.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1046,7 +1046,7 @@
   {
     "id": 59,
     "filename": "vse-photo-059.jpg",
-    "src": "/images/gallery/vse-photo-059.jpg",
+    "src": "./images/gallery/vse-photo-059.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -1064,7 +1064,7 @@
   {
     "id": 60,
     "filename": "vse-photo-060.jpg",
-    "src": "/images/gallery/vse-photo-060.jpg",
+    "src": "./images/gallery/vse-photo-060.jpg",
     "width": 1600,
     "height": 1371,
     "aspect": "landscape",
@@ -1082,7 +1082,7 @@
   {
     "id": 61,
     "filename": "vse-photo-061.jpg",
-    "src": "/images/gallery/vse-photo-061.jpg",
+    "src": "./images/gallery/vse-photo-061.jpg",
     "width": 1599,
     "height": 1200,
     "aspect": "landscape",
@@ -1100,7 +1100,7 @@
   {
     "id": 62,
     "filename": "vse-photo-062.jpg",
-    "src": "/images/gallery/vse-photo-062.jpg",
+    "src": "./images/gallery/vse-photo-062.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -1118,7 +1118,7 @@
   {
     "id": 63,
     "filename": "vse-photo-063.jpg",
-    "src": "/images/gallery/vse-photo-063.jpg",
+    "src": "./images/gallery/vse-photo-063.jpg",
     "width": 864,
     "height": 1152,
     "aspect": "portrait",
@@ -1136,7 +1136,7 @@
   {
     "id": 64,
     "filename": "vse-photo-064.jpg",
-    "src": "/images/gallery/vse-photo-064.jpg",
+    "src": "./images/gallery/vse-photo-064.jpg",
     "width": 1599,
     "height": 1200,
     "aspect": "landscape",
@@ -1154,7 +1154,7 @@
   {
     "id": 65,
     "filename": "vse-photo-065.jpg",
-    "src": "/images/gallery/vse-photo-065.jpg",
+    "src": "./images/gallery/vse-photo-065.jpg",
     "width": 1599,
     "height": 1200,
     "aspect": "landscape",
@@ -1172,7 +1172,7 @@
   {
     "id": 66,
     "filename": "vse-photo-066.jpg",
-    "src": "/images/gallery/vse-photo-066.jpg",
+    "src": "./images/gallery/vse-photo-066.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1190,7 +1190,7 @@
   {
     "id": 67,
     "filename": "vse-photo-067.jpg",
-    "src": "/images/gallery/vse-photo-067.jpg",
+    "src": "./images/gallery/vse-photo-067.jpg",
     "width": 1200,
     "height": 1599,
     "aspect": "portrait",
@@ -1208,7 +1208,7 @@
   {
     "id": 68,
     "filename": "vse-photo-068.jpg",
-    "src": "/images/gallery/vse-photo-068.jpg",
+    "src": "./images/gallery/vse-photo-068.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1226,7 +1226,7 @@
   {
     "id": 69,
     "filename": "vse-photo-069.jpg",
-    "src": "/images/gallery/vse-photo-069.jpg",
+    "src": "./images/gallery/vse-photo-069.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1244,7 +1244,7 @@
   {
     "id": 70,
     "filename": "vse-photo-070.jpg",
-    "src": "/images/gallery/vse-photo-070.jpg",
+    "src": "./images/gallery/vse-photo-070.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1262,7 +1262,7 @@
   {
     "id": 71,
     "filename": "vse-photo-071.jpg",
-    "src": "/images/gallery/vse-photo-071.jpg",
+    "src": "./images/gallery/vse-photo-071.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -1280,7 +1280,7 @@
   {
     "id": 72,
     "filename": "vse-photo-072.jpg",
-    "src": "/images/gallery/vse-photo-072.jpg",
+    "src": "./images/gallery/vse-photo-072.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1298,7 +1298,7 @@
   {
     "id": 73,
     "filename": "vse-photo-073.jpg",
-    "src": "/images/gallery/vse-photo-073.jpg",
+    "src": "./images/gallery/vse-photo-073.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -1316,7 +1316,7 @@
   {
     "id": 74,
     "filename": "vse-photo-074.jpg",
-    "src": "/images/gallery/vse-photo-074.jpg",
+    "src": "./images/gallery/vse-photo-074.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -1334,7 +1334,7 @@
   {
     "id": 75,
     "filename": "vse-photo-075.jpg",
-    "src": "/images/gallery/vse-photo-075.jpg",
+    "src": "./images/gallery/vse-photo-075.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -1352,7 +1352,7 @@
   {
     "id": 76,
     "filename": "vse-photo-076.jpg",
-    "src": "/images/gallery/vse-photo-076.jpg",
+    "src": "./images/gallery/vse-photo-076.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1370,7 +1370,7 @@
   {
     "id": 77,
     "filename": "vse-photo-077.jpg",
-    "src": "/images/gallery/vse-photo-077.jpg",
+    "src": "./images/gallery/vse-photo-077.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -1388,7 +1388,7 @@
   {
     "id": 78,
     "filename": "vse-photo-078.jpg",
-    "src": "/images/gallery/vse-photo-078.jpg",
+    "src": "./images/gallery/vse-photo-078.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1406,7 +1406,7 @@
   {
     "id": 79,
     "filename": "vse-photo-079.jpg",
-    "src": "/images/gallery/vse-photo-079.jpg",
+    "src": "./images/gallery/vse-photo-079.jpg",
     "width": 1600,
     "height": 1200,
     "aspect": "landscape",
@@ -1424,7 +1424,7 @@
   {
     "id": 80,
     "filename": "vse-photo-080.jpg",
-    "src": "/images/gallery/vse-photo-080.jpg",
+    "src": "./images/gallery/vse-photo-080.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1442,7 +1442,7 @@
   {
     "id": 81,
     "filename": "vse-photo-081.jpg",
-    "src": "/images/gallery/vse-photo-081.jpg",
+    "src": "./images/gallery/vse-photo-081.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -1460,7 +1460,7 @@
   {
     "id": 82,
     "filename": "vse-photo-082.jpg",
-    "src": "/images/gallery/vse-photo-082.jpg",
+    "src": "./images/gallery/vse-photo-082.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1478,7 +1478,7 @@
   {
     "id": 83,
     "filename": "vse-photo-083.jpg",
-    "src": "/images/gallery/vse-photo-083.jpg",
+    "src": "./images/gallery/vse-photo-083.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1496,7 +1496,7 @@
   {
     "id": 84,
     "filename": "vse-photo-084.jpg",
-    "src": "/images/gallery/vse-photo-084.jpg",
+    "src": "./images/gallery/vse-photo-084.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1514,7 +1514,7 @@
   {
     "id": 85,
     "filename": "vse-photo-085.jpg",
-    "src": "/images/gallery/vse-photo-085.jpg",
+    "src": "./images/gallery/vse-photo-085.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1532,7 +1532,7 @@
   {
     "id": 86,
     "filename": "vse-photo-086.jpg",
-    "src": "/images/gallery/vse-photo-086.jpg",
+    "src": "./images/gallery/vse-photo-086.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1550,7 +1550,7 @@
   {
     "id": 87,
     "filename": "vse-photo-087.jpg",
-    "src": "/images/gallery/vse-photo-087.jpg",
+    "src": "./images/gallery/vse-photo-087.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1568,7 +1568,7 @@
   {
     "id": 88,
     "filename": "vse-photo-088.jpg",
-    "src": "/images/gallery/vse-photo-088.jpg",
+    "src": "./images/gallery/vse-photo-088.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1586,7 +1586,7 @@
   {
     "id": 89,
     "filename": "vse-photo-089.jpg",
-    "src": "/images/gallery/vse-photo-089.jpg",
+    "src": "./images/gallery/vse-photo-089.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1604,7 +1604,7 @@
   {
     "id": 90,
     "filename": "vse-photo-090.jpg",
-    "src": "/images/gallery/vse-photo-090.jpg",
+    "src": "./images/gallery/vse-photo-090.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1622,7 +1622,7 @@
   {
     "id": 91,
     "filename": "vse-photo-091.jpg",
-    "src": "/images/gallery/vse-photo-091.jpg",
+    "src": "./images/gallery/vse-photo-091.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1640,7 +1640,7 @@
   {
     "id": 92,
     "filename": "vse-photo-092.jpg",
-    "src": "/images/gallery/vse-photo-092.jpg",
+    "src": "./images/gallery/vse-photo-092.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1658,7 +1658,7 @@
   {
     "id": 93,
     "filename": "vse-photo-093.jpg",
-    "src": "/images/gallery/vse-photo-093.jpg",
+    "src": "./images/gallery/vse-photo-093.jpg",
     "width": 722,
     "height": 1600,
     "aspect": "portrait",
@@ -1676,7 +1676,7 @@
   {
     "id": 94,
     "filename": "vse-photo-094.jpg",
-    "src": "/images/gallery/vse-photo-094.jpg",
+    "src": "./images/gallery/vse-photo-094.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1694,7 +1694,7 @@
   {
     "id": 95,
     "filename": "vse-photo-095.jpg",
-    "src": "/images/gallery/vse-photo-095.jpg",
+    "src": "./images/gallery/vse-photo-095.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1712,7 +1712,7 @@
   {
     "id": 96,
     "filename": "vse-photo-096.jpg",
-    "src": "/images/gallery/vse-photo-096.jpg",
+    "src": "./images/gallery/vse-photo-096.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1730,7 +1730,7 @@
   {
     "id": 97,
     "filename": "vse-photo-097.jpg",
-    "src": "/images/gallery/vse-photo-097.jpg",
+    "src": "./images/gallery/vse-photo-097.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1748,7 +1748,7 @@
   {
     "id": 98,
     "filename": "vse-photo-098.jpg",
-    "src": "/images/gallery/vse-photo-098.jpg",
+    "src": "./images/gallery/vse-photo-098.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1766,7 +1766,7 @@
   {
     "id": 99,
     "filename": "vse-photo-099.jpg",
-    "src": "/images/gallery/vse-photo-099.jpg",
+    "src": "./images/gallery/vse-photo-099.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1784,7 +1784,7 @@
   {
     "id": 100,
     "filename": "vse-photo-100.jpg",
-    "src": "/images/gallery/vse-photo-100.jpg",
+    "src": "./images/gallery/vse-photo-100.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1802,7 +1802,7 @@
   {
     "id": 101,
     "filename": "vse-photo-101.jpg",
-    "src": "/images/gallery/vse-photo-101.jpg",
+    "src": "./images/gallery/vse-photo-101.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1820,7 +1820,7 @@
   {
     "id": 102,
     "filename": "vse-photo-102.jpg",
-    "src": "/images/gallery/vse-photo-102.jpg",
+    "src": "./images/gallery/vse-photo-102.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1838,7 +1838,7 @@
   {
     "id": 103,
     "filename": "vse-photo-103.jpg",
-    "src": "/images/gallery/vse-photo-103.jpg",
+    "src": "./images/gallery/vse-photo-103.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1856,7 +1856,7 @@
   {
     "id": 104,
     "filename": "vse-photo-104.jpg",
-    "src": "/images/gallery/vse-photo-104.jpg",
+    "src": "./images/gallery/vse-photo-104.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1874,7 +1874,7 @@
   {
     "id": 105,
     "filename": "vse-photo-105.jpg",
-    "src": "/images/gallery/vse-photo-105.jpg",
+    "src": "./images/gallery/vse-photo-105.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1892,7 +1892,7 @@
   {
     "id": 106,
     "filename": "vse-photo-106.jpg",
-    "src": "/images/gallery/vse-photo-106.jpg",
+    "src": "./images/gallery/vse-photo-106.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1910,7 +1910,7 @@
   {
     "id": 107,
     "filename": "vse-photo-107.jpg",
-    "src": "/images/gallery/vse-photo-107.jpg",
+    "src": "./images/gallery/vse-photo-107.jpg",
     "width": 738,
     "height": 1600,
     "aspect": "portrait",
@@ -1928,7 +1928,7 @@
   {
     "id": 108,
     "filename": "vse-photo-108.jpg",
-    "src": "/images/gallery/vse-photo-108.jpg",
+    "src": "./images/gallery/vse-photo-108.jpg",
     "width": 899,
     "height": 1599,
     "aspect": "portrait",
@@ -1946,7 +1946,7 @@
   {
     "id": 109,
     "filename": "vse-photo-109.jpg",
-    "src": "/images/gallery/vse-photo-109.jpg",
+    "src": "./images/gallery/vse-photo-109.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -1964,7 +1964,7 @@
   {
     "id": 110,
     "filename": "vse-photo-110.jpg",
-    "src": "/images/gallery/vse-photo-110.jpg",
+    "src": "./images/gallery/vse-photo-110.jpg",
     "width": 1599,
     "height": 899,
     "aspect": "landscape",
@@ -1982,7 +1982,7 @@
   {
     "id": 111,
     "filename": "vse-photo-111.jpg",
-    "src": "/images/gallery/vse-photo-111.jpg",
+    "src": "./images/gallery/vse-photo-111.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -2000,7 +2000,7 @@
   {
     "id": 112,
     "filename": "vse-photo-112.jpg",
-    "src": "/images/gallery/vse-photo-112.jpg",
+    "src": "./images/gallery/vse-photo-112.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -2018,7 +2018,7 @@
   {
     "id": 113,
     "filename": "vse-photo-113.jpg",
-    "src": "/images/gallery/vse-photo-113.jpg",
+    "src": "./images/gallery/vse-photo-113.jpg",
     "width": 1083,
     "height": 1600,
     "aspect": "portrait",
@@ -2036,7 +2036,7 @@
   {
     "id": 114,
     "filename": "vse-photo-114.jpg",
-    "src": "/images/gallery/vse-photo-114.jpg",
+    "src": "./images/gallery/vse-photo-114.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2054,7 +2054,7 @@
   {
     "id": 115,
     "filename": "vse-photo-115.jpg",
-    "src": "/images/gallery/vse-photo-115.jpg",
+    "src": "./images/gallery/vse-photo-115.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2072,7 +2072,7 @@
   {
     "id": 116,
     "filename": "vse-photo-116.jpg",
-    "src": "/images/gallery/vse-photo-116.jpg",
+    "src": "./images/gallery/vse-photo-116.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2090,7 +2090,7 @@
   {
     "id": 117,
     "filename": "vse-photo-117.jpg",
-    "src": "/images/gallery/vse-photo-117.jpg",
+    "src": "./images/gallery/vse-photo-117.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2108,7 +2108,7 @@
   {
     "id": 118,
     "filename": "vse-photo-118.jpg",
-    "src": "/images/gallery/vse-photo-118.jpg",
+    "src": "./images/gallery/vse-photo-118.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2126,7 +2126,7 @@
   {
     "id": 119,
     "filename": "vse-photo-119.jpg",
-    "src": "/images/gallery/vse-photo-119.jpg",
+    "src": "./images/gallery/vse-photo-119.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2144,7 +2144,7 @@
   {
     "id": 120,
     "filename": "vse-photo-120.jpg",
-    "src": "/images/gallery/vse-photo-120.jpg",
+    "src": "./images/gallery/vse-photo-120.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2162,7 +2162,7 @@
   {
     "id": 121,
     "filename": "vse-photo-121.jpg",
-    "src": "/images/gallery/vse-photo-121.jpg",
+    "src": "./images/gallery/vse-photo-121.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2180,7 +2180,7 @@
   {
     "id": 122,
     "filename": "vse-photo-122.jpg",
-    "src": "/images/gallery/vse-photo-122.jpg",
+    "src": "./images/gallery/vse-photo-122.jpg",
     "width": 780,
     "height": 1040,
     "aspect": "portrait",
@@ -2198,7 +2198,7 @@
   {
     "id": 123,
     "filename": "vse-photo-123.jpg",
-    "src": "/images/gallery/vse-photo-123.jpg",
+    "src": "./images/gallery/vse-photo-123.jpg",
     "width": 1040,
     "height": 780,
     "aspect": "landscape",
@@ -2216,7 +2216,7 @@
   {
     "id": 124,
     "filename": "vse-photo-124.jpg",
-    "src": "/images/gallery/vse-photo-124.jpg",
+    "src": "./images/gallery/vse-photo-124.jpg",
     "width": 1040,
     "height": 780,
     "aspect": "landscape",
@@ -2234,7 +2234,7 @@
   {
     "id": 125,
     "filename": "vse-photo-125.jpg",
-    "src": "/images/gallery/vse-photo-125.jpg",
+    "src": "./images/gallery/vse-photo-125.jpg",
     "width": 1040,
     "height": 780,
     "aspect": "landscape",
@@ -2252,7 +2252,7 @@
   {
     "id": 126,
     "filename": "vse-photo-126.jpg",
-    "src": "/images/gallery/vse-photo-126.jpg",
+    "src": "./images/gallery/vse-photo-126.jpg",
     "width": 1040,
     "height": 780,
     "aspect": "landscape",
@@ -2270,7 +2270,7 @@
   {
     "id": 127,
     "filename": "vse-photo-127.jpg",
-    "src": "/images/gallery/vse-photo-127.jpg",
+    "src": "./images/gallery/vse-photo-127.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2288,7 +2288,7 @@
   {
     "id": 128,
     "filename": "vse-photo-128.jpg",
-    "src": "/images/gallery/vse-photo-128.jpg",
+    "src": "./images/gallery/vse-photo-128.jpg",
     "width": 899,
     "height": 1599,
     "aspect": "portrait",
@@ -2306,7 +2306,7 @@
   {
     "id": 129,
     "filename": "vse-photo-129.jpg",
-    "src": "/images/gallery/vse-photo-129.jpg",
+    "src": "./images/gallery/vse-photo-129.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2324,7 +2324,7 @@
   {
     "id": 130,
     "filename": "vse-photo-130.jpg",
-    "src": "/images/gallery/vse-photo-130.jpg",
+    "src": "./images/gallery/vse-photo-130.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2342,7 +2342,7 @@
   {
     "id": 131,
     "filename": "vse-photo-131.jpg",
-    "src": "/images/gallery/vse-photo-131.jpg",
+    "src": "./images/gallery/vse-photo-131.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2360,7 +2360,7 @@
   {
     "id": 132,
     "filename": "vse-photo-132.jpg",
-    "src": "/images/gallery/vse-photo-132.jpg",
+    "src": "./images/gallery/vse-photo-132.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2378,7 +2378,7 @@
   {
     "id": 133,
     "filename": "vse-photo-133.jpg",
-    "src": "/images/gallery/vse-photo-133.jpg",
+    "src": "./images/gallery/vse-photo-133.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2396,7 +2396,7 @@
   {
     "id": 134,
     "filename": "vse-photo-134.jpg",
-    "src": "/images/gallery/vse-photo-134.jpg",
+    "src": "./images/gallery/vse-photo-134.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2414,7 +2414,7 @@
   {
     "id": 135,
     "filename": "vse-photo-135.jpg",
-    "src": "/images/gallery/vse-photo-135.jpg",
+    "src": "./images/gallery/vse-photo-135.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2432,7 +2432,7 @@
   {
     "id": 136,
     "filename": "vse-photo-136.jpg",
-    "src": "/images/gallery/vse-photo-136.jpg",
+    "src": "./images/gallery/vse-photo-136.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2450,7 +2450,7 @@
   {
     "id": 137,
     "filename": "vse-photo-137.jpg",
-    "src": "/images/gallery/vse-photo-137.jpg",
+    "src": "./images/gallery/vse-photo-137.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2468,7 +2468,7 @@
   {
     "id": 138,
     "filename": "vse-photo-138.jpg",
-    "src": "/images/gallery/vse-photo-138.jpg",
+    "src": "./images/gallery/vse-photo-138.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2486,7 +2486,7 @@
   {
     "id": 139,
     "filename": "vse-photo-139.jpg",
-    "src": "/images/gallery/vse-photo-139.jpg",
+    "src": "./images/gallery/vse-photo-139.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2504,7 +2504,7 @@
   {
     "id": 140,
     "filename": "vse-photo-140.jpg",
-    "src": "/images/gallery/vse-photo-140.jpg",
+    "src": "./images/gallery/vse-photo-140.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2522,7 +2522,7 @@
   {
     "id": 141,
     "filename": "vse-photo-141.jpg",
-    "src": "/images/gallery/vse-photo-141.jpg",
+    "src": "./images/gallery/vse-photo-141.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2540,7 +2540,7 @@
   {
     "id": 142,
     "filename": "vse-photo-142.jpg",
-    "src": "/images/gallery/vse-photo-142.jpg",
+    "src": "./images/gallery/vse-photo-142.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2558,7 +2558,7 @@
   {
     "id": 143,
     "filename": "vse-photo-143.jpg",
-    "src": "/images/gallery/vse-photo-143.jpg",
+    "src": "./images/gallery/vse-photo-143.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2576,7 +2576,7 @@
   {
     "id": 144,
     "filename": "vse-photo-144.jpg",
-    "src": "/images/gallery/vse-photo-144.jpg",
+    "src": "./images/gallery/vse-photo-144.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2594,7 +2594,7 @@
   {
     "id": 145,
     "filename": "vse-photo-145.jpg",
-    "src": "/images/gallery/vse-photo-145.jpg",
+    "src": "./images/gallery/vse-photo-145.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2612,7 +2612,7 @@
   {
     "id": 146,
     "filename": "vse-photo-146.jpg",
-    "src": "/images/gallery/vse-photo-146.jpg",
+    "src": "./images/gallery/vse-photo-146.jpg",
     "width": 1536,
     "height": 2048,
     "aspect": "portrait",
@@ -2630,7 +2630,7 @@
   {
     "id": 147,
     "filename": "vse-photo-147.jpg",
-    "src": "/images/gallery/vse-photo-147.jpg",
+    "src": "./images/gallery/vse-photo-147.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",
@@ -2648,7 +2648,7 @@
   {
     "id": 148,
     "filename": "vse-photo-148.jpg",
-    "src": "/images/gallery/vse-photo-148.jpg",
+    "src": "./images/gallery/vse-photo-148.jpg",
     "width": 540,
     "height": 1207,
     "aspect": "portrait",
@@ -2666,7 +2666,7 @@
   {
     "id": 149,
     "filename": "vse-photo-149.jpg",
-    "src": "/images/gallery/vse-photo-149.jpg",
+    "src": "./images/gallery/vse-photo-149.jpg",
     "width": 1200,
     "height": 1600,
     "aspect": "portrait",

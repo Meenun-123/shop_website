@@ -36,7 +36,7 @@ export const BrandStory: React.FC<BrandStoryProps> = ({ onLearnMoreClick }) => {
                 className="col-span-8 overflow-hidden rounded-2xl shadow-xl aspect-[4/5] relative group"
               >
                 <img
-                  src="/images/gallery/vse-photo-004.jpg"
+                  src="./images/gallery/vse-photo-004.jpg"
                   alt="Vijaya Sai Enterprises Handcrafted Door Craftsmanship"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
@@ -59,7 +59,7 @@ export const BrandStory: React.FC<BrandStoryProps> = ({ onLearnMoreClick }) => {
                 className="col-span-4 overflow-hidden rounded-xl shadow-2xl aspect-[3/4] relative group -mb-6"
               >
                 <img
-                  src="/images/gallery/vse-photo-007.jpg"
+                  src="./images/gallery/vse-photo-007.jpg"
                   alt="Precision Laser Cut Architectural Grill"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"

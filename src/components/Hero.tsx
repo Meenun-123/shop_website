@@ -10,17 +10,17 @@ interface HeroProps {
 
 const heroSlides = [
   {
-    image: '/images/gallery/vse-photo-001.jpg',
+    image: './images/gallery/vse-photo-001.jpg',
     tag: 'Bespoke Entrances',
     subtitle: 'Handcrafted Teak & Architectural Pivot Doors',
   },
   {
-    image: '/images/gallery/vse-photo-002.jpg',
+    image: './images/gallery/vse-photo-002.jpg',
     tag: 'Architectural Security',
     subtitle: 'Precision Laser-Cut Grills & Facade Enclosures',
   },
   {
-    image: '/images/gallery/vse-photo-003.jpg',
+    image: './images/gallery/vse-photo-003.jpg',
     tag: 'Modern Glazing',
     subtitle: 'Acoustic Aluminium & UPVC Window Systems',
   },

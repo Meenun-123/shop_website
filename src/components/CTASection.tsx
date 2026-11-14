@@ -13,7 +13,7 @@ export const CTASection: React.FC<CTASectionProps> = ({ onContactClick }) => {
       {/* Background Architectural Photo with Dark Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-25 filter blur-[0.5px]"
-        style={{ backgroundImage: "url('/images/gallery/vse-photo-001.jpg')" }}
+        style={{ backgroundImage: "url('./images/gallery/vse-photo-001.jpg')" }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-[#181816] via-[#181816]/80 to-[#181816]" />
 
