@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Check, ArrowRight, MessageSquare } from 'lucide-react';
 import { type CollectionItem } from '../data/businessData';
@@ -14,6 +14,19 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
   onClose,
   onEnquire,
 }) => {
+  useEffect(() => {
+    if (!item) return;
+    document.body.style.overflow = 'hidden';
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKey);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKey);
+    };
+  }, [item, onClose]);
+
   if (!item) return null;
 
   const whatsappItemUrl = `https://wa.me/919000457378?text=Hello%20Vijaya%20Sai%20Enterprises%2C%20I%20am%20interested%20in%20${encodeURIComponent(
@@ -22,7 +35,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+      <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6">
         {/* Backdrop */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -32,60 +45,60 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
           className="fixed inset-0 bg-black/75 backdrop-blur-md"
         />
 
-        {/* Modal Window */}
+        {/* Modal Window: bottom sheet on mobile, centered card on sm+ */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.95, y: 20 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.95, y: 20 }}
-          transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="relative w-full max-w-4xl bg-[#F5F2EB] rounded-2xl shadow-2xl overflow-hidden z-10 my-8 max-h-[90vh] flex flex-col md:flex-row border border-[#E0D9CC]"
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 40 }}
+          transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+          className="relative w-full max-w-4xl bg-[#F5F2EB] rounded-t-3xl sm:rounded-2xl shadow-2xl overflow-hidden z-10 max-h-[92svh] sm:max-h-[90vh] flex flex-col md:flex-row border border-[#E0D9CC]"
         >
           {/* Close button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center transition-colors"
+            className="absolute top-3.5 right-3.5 sm:top-4 sm:right-4 z-20 w-10 h-10 rounded-full bg-black/55 hover:bg-black/75 text-white flex items-center justify-center transition-colors shadow-lg"
             aria-label="Close modal"
           >
             <X className="w-5 h-5" />
           </button>
 
           {/* Left Column: Image */}
-          <div className="md:w-1/2 relative bg-black/10 min-h-[300px] md:min-h-full">
+          <div className="md:w-1/2 relative bg-black/10 h-56 sm:h-72 md:h-auto md:min-h-full flex-shrink-0">
             <img
               src={item.image}
               alt={item.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-            <div className="absolute bottom-5 left-5 right-5 text-white">
-              <span className="text-[11px] font-mono tracking-widest uppercase text-[#B7A17B] font-semibold block">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+            <div className="absolute bottom-4 left-4 right-14 sm:bottom-5 sm:left-5 sm:right-5 text-white">
+              <span className="text-[10px] sm:text-[11px] font-mono tracking-widest uppercase text-[#B7A17B] font-semibold block">
                 Collection {item.number}
               </span>
-              <h4 className="font-serif text-2xl text-white">{item.title}</h4>
+              <h4 className="font-serif text-xl sm:text-2xl text-white leading-tight">{item.title}</h4>
             </div>
           </div>
 
           {/* Right Column: Detailed Specifications */}
-          <div className="md:w-1/2 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto">
+          <div className="md:w-1/2 p-5 sm:p-8 flex flex-col justify-between overflow-y-auto">
             <div>
-              <div className="flex items-center gap-2 mb-3">
-                <span className="px-3 py-1 rounded-full bg-[#EAE6DD] text-[#8E7752] text-[10px] uppercase tracking-[0.25em] font-semibold">
+              <div className="flex items-center gap-2 mb-2.5 sm:mb-3">
+                <span className="px-3 py-1 rounded-full bg-[#EAE6DD] text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-semibold">
                   Technical Specifications
                 </span>
               </div>
 
-              <h3 className="font-serif text-3xl text-[#20201E] mb-4">
+              <h3 className="font-serif text-2xl sm:text-3xl text-[#20201E] mb-3 sm:mb-4 leading-tight">
                 {item.title}
               </h3>
 
-              <p className="text-sm text-[#6B6964] font-light leading-relaxed mb-6">
+              <p className="text-xs sm:text-sm text-[#6B6964] font-light leading-relaxed mb-5 sm:mb-6">
                 {item.fullDesc}
               </p>
 
               {/* Material & Engineering Specs */}
-              <div className="mb-6">
-                <h5 className="text-[11px] uppercase tracking-[0.2em] font-bold text-[#20201E] mb-3">
-                  Material & Engineering
+              <div className="mb-5 sm:mb-6">
+                <h5 className="text-[11px] uppercase tracking-[0.2em] font-bold text-[#20201E] mb-2.5">
+                  Dimensions & Engineering
                 </h5>
                 <div className="grid grid-cols-1 gap-2">
                   {item.specs.map((spec, idx) => (
@@ -98,8 +111,8 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               </div>
 
               {/* Architectural Features */}
-              <div className="mb-8">
-                <h5 className="text-[11px] uppercase tracking-[0.2em] font-bold text-[#20201E] mb-3">
+              <div className="mb-6 sm:mb-8">
+                <h5 className="text-[11px] uppercase tracking-[0.2em] font-bold text-[#20201E] mb-2.5">
                   Key Architectural Features
                 </h5>
                 <div className="grid grid-cols-1 gap-2">
@@ -114,13 +127,13 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
             </div>
 
             {/* Action Buttons */}
-            <div className="pt-6 border-t border-[#EAE6DD] flex flex-col sm:flex-row gap-3">
+            <div className="pt-4 sm:pt-6 border-t border-[#EAE6DD] flex flex-col sm:flex-row gap-3 pb-2 sm:pb-0">
               <button
                 onClick={() => {
                   onEnquire(item.title);
                   onClose();
                 }}
-                className="flex-1 py-3 px-5 rounded-full bg-[#20201E] text-white text-xs uppercase tracking-[0.2em] font-semibold hover:bg-[#B7A17B] transition-colors flex items-center justify-center gap-2"
+                className="flex-1 py-3.5 px-5 rounded-full bg-[#20201E] text-white text-xs uppercase tracking-[0.18em] font-semibold hover:bg-[#B7A17B] transition-colors flex items-center justify-center gap-2"
               >
                 <span>Request Custom Quote</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -130,7 +143,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 href={whatsappItemUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-3 px-5 rounded-full bg-[#25D366] text-white text-xs uppercase tracking-[0.2em] font-semibold hover:bg-[#20ba5a] transition-colors flex items-center justify-center gap-2"
+                className="py-3.5 px-5 rounded-full bg-[#25D366] text-white text-xs uppercase tracking-[0.18em] font-semibold hover:bg-[#20ba5a] transition-colors flex items-center justify-center gap-2"
               >
                 <MessageSquare className="w-3.5 h-3.5" />
                 <span>WhatsApp</span>

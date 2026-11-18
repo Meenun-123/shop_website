@@ -82,10 +82,10 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
     };
 
     return (
-      <section id="contact" ref={ref} className="py-28 sm:py-36 bg-[#EAE6DD] text-[#20201E] relative">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8">
+      <section id="contact" ref={ref} className="py-16 sm:py-28 lg:py-36 bg-[#EAE6DD] text-[#20201E] relative">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8">
           {/* Header */}
-          <div className="max-w-2xl mb-16">
+          <div className="max-w-2xl mb-10 sm:mb-16">
             <div className="flex items-center gap-3 mb-4">
               <span className="w-8 h-[1px] bg-[#B7A17B]" />
               <span className="text-[11px] uppercase tracking-[0.3em] font-semibold text-[#8E7752]">
@@ -195,7 +195,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
             {/* Right 7 Cols: Interactive Form & Embedded Location */}
             <div className="lg:col-span-7 flex flex-col gap-8">
               {/* Form Card */}
-              <div className="p-8 sm:p-10 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC] shadow-sm">
+              <div className="p-6 sm:p-10 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC] shadow-sm">
                 <h3 className="font-serif text-2xl sm:text-3xl text-[#20201E] mb-2">
                   Send an Architectural Enquiry
                 </h3>
@@ -254,7 +254,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                           placeholder="e.g. Ramesh Kumar"
-                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-sm focus:outline-none focus:border-[#8E7752] transition-colors"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-base sm:text-sm focus:outline-none focus:border-[#8E7752] transition-colors"
                         />
                       </div>
 
@@ -268,7 +268,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                           placeholder="e.g. 9876543210"
-                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-sm focus:outline-none focus:border-[#8E7752] transition-colors"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-base sm:text-sm focus:outline-none focus:border-[#8E7752] transition-colors"
                         />
                       </div>
                     </div>
@@ -283,7 +283,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                           placeholder="name@example.com"
-                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-sm focus:outline-none focus:border-[#8E7752] transition-colors"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-base sm:text-sm focus:outline-none focus:border-[#8E7752] transition-colors"
                         />
                       </div>
 
@@ -294,7 +294,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
                         <select
                           value={formData.product}
                           onChange={(e) => setFormData({ ...formData, product: e.target.value })}
-                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-sm focus:outline-none focus:border-[#8E7752] transition-colors text-[#20201E]"
+                          className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-base sm:text-sm focus:outline-none focus:border-[#8E7752] transition-colors text-[#20201E]"
                         >
                           {productOptions.map((opt) => (
                             <option key={opt} value={opt}>
@@ -314,7 +314,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         placeholder="Tell us about your UPVC window tracks, WPC frame/door dimensions, wall panels, or CNC Jali requirements..."
-                        className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-sm focus:outline-none focus:border-[#8E7752] transition-colors resize-none"
+                        className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-base sm:text-sm focus:outline-none focus:border-[#8E7752] transition-colors resize-none"
                       />
                     </div>
 

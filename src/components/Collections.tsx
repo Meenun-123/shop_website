@@ -24,12 +24,12 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
   });
 
   return (
-    <section id="collections" className="py-28 sm:py-36 bg-[#EAE6DD] text-[#20201E] relative">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="collections" className="py-16 sm:py-28 lg:py-36 bg-[#EAE6DD] text-[#20201E] relative">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-8">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-5 sm:gap-8">
           <div>
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center gap-3 mb-3 sm:mb-4">
               <span className="w-8 h-[1px] bg-[#B7A17B]" />
               <span className="text-[11px] uppercase tracking-[0.3em] font-semibold text-[#8E7752]">
                 Curated Portfolio
@@ -47,9 +47,9 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
         </div>
 
         {/* Exact Specifications Quick-Reference Strip */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
-          <div className="p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
-            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 mb-8 sm:mb-12">
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
+            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-1.5 sm:mb-2">
               <Ruler className="w-3.5 h-3.5" />
               <span>UPVC Products</span>
             </div>
@@ -58,8 +58,8 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
-            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-2">
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
+            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-1.5 sm:mb-2">
               <Ruler className="w-3.5 h-3.5" />
               <span>WPC Frames, Doors & Boards</span>
             </div>
@@ -68,8 +68,8 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
-            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-2">
+          <div className="p-4 sm:p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
+            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-1.5 sm:mb-2">
               <Ruler className="w-3.5 h-3.5" />
               <span>Interior & Exterior PVC / WPC</span>
             </div>
@@ -79,13 +79,13 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
           </div>
         </div>
 
-        {/* Filter Navigation Tabs */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-4 mb-12 scrollbar-none">
+        {/* Swipeable Edge-to-Edge Filter Navigation Tabs */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-3 mb-8 sm:mb-12 -mx-5 px-5 sm:mx-0 sm:px-0 scrollbar-none snap-x">
           {filterTabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveFilter(tab.id)}
-              className={`px-5 py-2.5 rounded-full text-xs uppercase tracking-[0.18em] font-medium transition-all duration-300 whitespace-nowrap ${
+              className={`snap-start px-4 sm:px-5 py-2.5 rounded-full text-[11px] sm:text-xs uppercase tracking-[0.16em] sm:tracking-[0.18em] font-medium transition-all duration-300 whitespace-nowrap flex-shrink-0 ${
                 activeFilter === tab.id
                   ? 'bg-[#20201E] text-white shadow-md'
                   : 'bg-[#F5F2EB] text-[#6B6964] hover:text-[#20201E] hover:bg-white'
@@ -97,7 +97,7 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
         </div>
 
         {/* Large Editorial Card Layout */}
-        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
           <AnimatePresence>
             {filteredItems.map((item, index) => {
               const isFeatured = activeFilter === 'all' && (index === 0 || index === 6);
@@ -105,20 +105,20 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
               return (
                 <motion.div
                   layout
-                  initial={{ opacity: 0, y: 30 }}
+                  initial={{ opacity: 0, y: 24 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{ duration: 0.6, delay: index * 0.06 }}
+                  transition={{ duration: 0.5, delay: index * 0.05 }}
                   key={item.id}
                   onClick={() => onSelectCollection(item)}
-                  className={`group cursor-pointer rounded-2xl overflow-hidden bg-[#F5F2EB] flex flex-col justify-between border border-[#DFD8CC] transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl ${
+                  className={`group cursor-pointer rounded-2xl overflow-hidden bg-[#F5F2EB] flex flex-col justify-between border border-[#DFD8CC] transition-all duration-500 active:scale-[0.99] sm:hover:-translate-y-2 hover:shadow-2xl ${
                     isFeatured ? 'md:col-span-2 lg:col-span-2' : 'col-span-1'
                   }`}
                 >
                   {/* Image Container with zoom */}
                   <div
                     className={`relative w-full overflow-hidden bg-black/10 ${
-                      isFeatured ? 'h-80 sm:h-96' : 'h-72 sm:h-80'
+                      isFeatured ? 'h-60 sm:h-96' : 'h-56 sm:h-80'
                     }`}
                   >
                     <img
@@ -132,16 +132,16 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
                     <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-transparent opacity-75 group-hover:opacity-90 transition-opacity" />
 
                     {/* Category Index Number Badge */}
-                    <div className="absolute top-5 left-5 px-3 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[#20201E] text-[11px] font-mono tracking-wider font-semibold">
+                    <div className="absolute top-4 left-4 sm:top-5 sm:left-5 px-3 py-1 rounded-full bg-white/90 backdrop-blur-md text-[#20201E] text-[11px] font-mono tracking-wider font-semibold">
                       {item.number}
                     </div>
 
-                    {/* Quick Specs Pill on hover */}
-                    <div className="absolute bottom-5 left-5 right-5 flex flex-wrap items-center gap-2 opacity-95 transition-opacity">
+                    {/* Quick Specs Pill */}
+                    <div className="absolute bottom-3.5 left-4 right-4 sm:bottom-5 sm:left-5 sm:right-5 flex flex-wrap items-center gap-1.5 sm:gap-2 opacity-95 transition-opacity">
                       {item.specs.slice(0, 2).map((spec, i) => (
                         <span
                           key={i}
-                          className="px-2.5 py-1 rounded bg-black/50 backdrop-blur-md text-white/95 text-[10px] tracking-wide font-medium border border-white/15"
+                          className="px-2.5 py-1 rounded bg-black/55 backdrop-blur-md text-white/95 text-[10px] tracking-wide font-medium border border-white/15"
                         >
                           {spec}
                         </span>
@@ -150,18 +150,18 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
                   </div>
 
                   {/* Card Content Footer */}
-                  <div className="p-6 sm:p-8 flex flex-col justify-between flex-grow">
+                  <div className="p-5 sm:p-8 flex flex-col justify-between flex-grow">
                     <div>
-                      <h3 className="font-serif text-2xl sm:text-3xl text-[#20201E] group-hover:text-[#8E7752] transition-colors mb-2">
+                      <h3 className="font-serif text-2xl sm:text-3xl text-[#20201E] group-hover:text-[#8E7752] transition-colors mb-2 leading-tight">
                         {item.title}
                       </h3>
-                      <p className="text-xs sm:text-sm text-[#6B6964] font-light leading-relaxed mb-6">
+                      <p className="text-xs sm:text-sm text-[#6B6964] font-light leading-relaxed mb-5 sm:mb-6">
                         {item.shortDesc}
                       </p>
                     </div>
 
-                    <div className="flex items-center justify-between pt-4 border-t border-[#EAE6DD]">
-                      <span className="text-[11px] uppercase tracking-[0.25em] font-semibold text-[#8E7752] group-hover:text-[#20201E] transition-colors">
+                    <div className="flex items-center justify-between pt-3.5 sm:pt-4 border-t border-[#EAE6DD]">
+                      <span className="text-[11px] uppercase tracking-[0.22em] font-semibold text-[#8E7752] group-hover:text-[#20201E] transition-colors">
                         View Specifications
                       </span>
                       <div className="w-9 h-9 rounded-full bg-[#EAE6DD] group-hover:bg-[#B7A17B] text-[#20201E] group-hover:text-white flex items-center justify-center transition-all duration-300">

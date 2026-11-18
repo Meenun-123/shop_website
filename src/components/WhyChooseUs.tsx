@@ -7,10 +7,10 @@ const icons = [Hammer, Compass, ShieldCheck, HeartHandshake];
 
 export const WhyChooseUs: React.FC = () => {
   return (
-    <section id="why-us" className="py-28 sm:py-36 bg-[#F5F2EB] relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="why-us" className="py-16 sm:py-28 lg:py-36 bg-[#F5F2EB] relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8">
         {/* Section Header */}
-        <div className="max-w-2xl mb-20">
+        <div className="max-w-2xl mb-10 sm:mb-20">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-[1px] bg-[#B7A17B]" />
             <span className="text-[11px] uppercase tracking-[0.3em] font-semibold text-[#8E7752]">

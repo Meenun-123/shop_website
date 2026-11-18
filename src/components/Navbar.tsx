@@ -20,6 +20,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Lock background scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
@@ -35,23 +47,32 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
     <>
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled
-            ? 'bg-[#F5F2EB]/90 backdrop-blur-md py-3 shadow-[0_4px_20px_rgba(0,0,0,0.06)] border-b border-[#E0D9CC]'
-            : 'bg-gradient-to-b from-black/60 via-black/30 to-transparent py-5'
+          isScrolled || mobileMenuOpen
+            ? 'bg-[#F5F2EB]/95 backdrop-blur-md py-2.5 sm:py-3 shadow-[0_4px_20px_rgba(0,0,0,0.06)] border-b border-[#E0D9CC]'
+            : 'bg-gradient-to-b from-black/70 via-black/35 to-transparent py-3.5 sm:py-5'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
-          {/* Logo */}
-          <a href="#home" className="group flex items-center gap-2">
-            <BrandLogo
-              variant={isScrolled ? 'dark' : 'light'}
-              size="md"
-              showTagline={true}
-            />
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between gap-2">
+          {/* Responsive Logo: compact on small phones, full md on tablet/desktop */}
+          <a href="#home" onClick={() => setMobileMenuOpen(false)} className="group flex items-center gap-2 min-w-0">
+            <div className="sm:hidden">
+              <BrandLogo
+                variant={isScrolled || mobileMenuOpen ? 'dark' : 'light'}
+                size="sm"
+                showTagline={true}
+              />
+            </div>
+            <div className="hidden sm:block">
+              <BrandLogo
+                variant={isScrolled || mobileMenuOpen ? 'dark' : 'light'}
+                size="md"
+                showTagline={true}
+              />
+            </div>
           </a>
 
           {/* Desktop Nav Links */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-7">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -66,7 +87,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
             ))}
           </nav>
 
-          {/* Action Button & Contact Info */}
+          {/* Desktop Action Button & Contact Info */}
           <div className="hidden sm:flex items-center gap-4">
             <a
               href={`tel:${businessInfo.phonePrimaryRaw}`}
@@ -93,16 +114,32 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
             </button>
           </div>
 
-          {/* Mobile Hamburger Toggle */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle Navigation Menu"
-            className={`lg:hidden p-2 rounded-lg transition-colors ${
-              isScrolled ? 'text-[#20201E]' : 'text-white'
-            }`}
-          >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile Quick Call + Hamburger Toggle */}
+          <div className="flex items-center gap-1.5 lg:hidden">
+            <a
+              href={`tel:${businessInfo.phonePrimaryRaw}`}
+              aria-label="Call Vijaya Sai Enterprises"
+              className={`sm:hidden w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
+                isScrolled || mobileMenuOpen
+                  ? 'bg-[#EAE6DD] text-[#20201E]'
+                  : 'bg-white/15 backdrop-blur-md text-white border border-white/20'
+              }`}
+            >
+              <Phone className="w-4 h-4" />
+            </a>
+
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle Navigation Menu"
+              className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
+                isScrolled || mobileMenuOpen
+                  ? 'text-[#20201E] bg-[#EAE6DD]/70'
+                  : 'text-white bg-white/15 backdrop-blur-md border border-white/20'
+              }`}
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
+          </div>
         </div>
       </header>
 
@@ -110,42 +147,54 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: -16 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3, ease: 'easeInOut' }}
-            className="fixed inset-0 z-40 bg-[#1A1918]/95 backdrop-blur-xl lg:hidden flex flex-col pt-24 px-8 pb-10 justify-between"
+            exit={{ opacity: 0, y: -16 }}
+            transition={{ duration: 0.25, ease: 'easeOut' }}
+            className="fixed inset-0 z-40 bg-[#1A1918]/98 backdrop-blur-xl lg:hidden flex flex-col pt-20 px-6 pb-8 justify-between overflow-y-auto"
           >
-            <div className="flex flex-col gap-6">
-              <span className="text-[10px] uppercase tracking-[0.3em] text-[#B7A17B] font-semibold">
+            <div className="flex flex-col gap-1 py-4">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-[#B7A17B] font-semibold mb-3">
                 Navigation
               </span>
               {navLinks.map((link, idx) => (
                 <motion.a
                   key={link.name}
                   href={link.href}
-                  initial={{ opacity: 0, x: -20 }}
+                  initial={{ opacity: 0, x: -16 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.05 * idx }}
+                  transition={{ delay: 0.03 * idx }}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="font-serif text-2xl text-[#F5F2EB] hover:text-[#B7A17B] transition-colors"
+                  className="font-serif text-2xl text-[#F5F2EB] active:text-[#B7A17B] hover:text-[#B7A17B] transition-colors py-2.5 border-b border-white/5 flex items-center justify-between"
                 >
-                  {link.name}
+                  <span>{link.name}</span>
+                  <ArrowUpRight className="w-4 h-4 text-[#B7A17B]/60" />
                 </motion.a>
               ))}
             </div>
 
-            <div className="pt-8 border-t border-white/10 flex flex-col gap-4">
-              <div className="text-xs text-white/60">
-                <p className="font-medium text-white">{businessInfo.name}</p>
+            <div className="pt-6 border-t border-white/10 flex flex-col gap-4 mt-4">
+              <div className="text-xs text-white/65 leading-relaxed">
+                <p className="font-semibold text-white">{businessInfo.name}</p>
                 <p className="mt-1">{businessInfo.address.landmark}, {businessInfo.address.city}</p>
                 <p className="mt-0.5">Proprietor: {businessInfo.proprietor}</p>
               </div>
 
-              <div className="flex items-center gap-3">
+              <button
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  onContactClick();
+                }}
+                className="w-full py-3.5 px-4 bg-[#B7A17B] text-[#181816] text-xs uppercase tracking-[0.2em] font-semibold text-center rounded-full flex items-center justify-center gap-2"
+              >
+                <span>Let's Talk / Request Quote</span>
+                <ArrowUpRight className="w-4 h-4" />
+              </button>
+
+              <div className="grid grid-cols-2 gap-3">
                 <a
                   href={`tel:${businessInfo.phonePrimaryRaw}`}
-                  className="flex-1 py-3 px-4 bg-white/10 text-white text-xs uppercase tracking-wider text-center rounded-lg hover:bg-white/20 transition-colors flex items-center justify-center gap-2"
+                  className="py-3.5 px-4 bg-white/10 text-white text-xs uppercase tracking-wider font-medium text-center rounded-full active:bg-white/20 transition-colors flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4 text-[#B7A17B]" />
                   Call Now
@@ -154,7 +203,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
                   href={businessInfo.whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 py-3 px-4 bg-[#25D366] text-white text-xs uppercase tracking-wider text-center rounded-lg hover:bg-[#20ba5a] transition-colors flex items-center justify-center gap-2"
+                  className="py-3.5 px-4 bg-[#25D366] text-white text-xs uppercase tracking-wider font-medium text-center rounded-full active:bg-[#20ba5a] transition-colors flex items-center justify-center gap-2"
                 >
                   <MessageSquare className="w-4 h-4" />
                   WhatsApp

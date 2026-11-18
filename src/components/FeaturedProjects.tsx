@@ -9,13 +9,13 @@ interface FeaturedProjectsProps {
 
 export const FeaturedProjects: React.FC<FeaturedProjectsProps> = ({ onSelectProject }) => {
   return (
-    <section id="projects" className="py-28 sm:py-36 bg-[#181816] text-[#F5F2EB] relative overflow-hidden">
+    <section id="projects" className="py-16 sm:py-28 lg:py-36 bg-[#181816] text-[#F5F2EB] relative overflow-hidden">
       {/* Background Ambience */}
       <div className="absolute top-1/4 -right-20 w-96 h-96 bg-[#B7A17B]/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-20 gap-5 sm:gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
               <span className="w-8 h-[1px] bg-[#B7A17B]" />
@@ -57,7 +57,7 @@ export const FeaturedProjects: React.FC<FeaturedProjectsProps> = ({ onSelectProj
                 className={`group cursor-pointer rounded-2xl overflow-hidden bg-[#22211F] border border-white/10 transition-all duration-500 hover:border-[#B7A17B]/50 hover:-translate-y-2 ${colSpan}`}
               >
                 {/* Image */}
-                <div className="relative h-80 sm:h-96 w-full overflow-hidden">
+                <div className="relative h-64 sm:h-96 w-full overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
