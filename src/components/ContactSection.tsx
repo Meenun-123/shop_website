@@ -1,4 +1,4 @@
-import React, { useState, forwardRef } from 'react';
+import React, { useState, useEffect, forwardRef } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, MessageSquare, Clock, Send, CheckCircle2, AlertCircle } from 'lucide-react';
 import confetti from 'canvas-confetti';
@@ -14,7 +14,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
       name: '',
       phone: '',
       email: '',
-      product: initialProductInterest || 'Premium Main Doors',
+      product: initialProductInterest || 'UPVC Sliding Windows & Doors (2 / 2.5 / 3 Track)',
       message: '',
     });
 
@@ -23,16 +23,29 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
     const [error, setError] = useState('');
 
     const productOptions = [
-      'Premium Main Doors',
-      'Designer Wooden Doors',
-      'Modern Interior Doors',
-      'Aluminium Windows & Sliding Systems',
-      'UPVC Windows & Glazing',
-      'Architectural Safety Grills',
-      'Door Frames & Hardware',
-      'Interior Solutions & Partitions',
+      'UPVC Sliding Windows & Doors (2 / 2.5 / 3 Track)',
+      'UPVC Openable Casement Doors & Windows',
+      'UPVC Fixed Frames, Partitions, Ventilators & Louvers',
+      'WPC Door Frames (3×2, 4×2, 4×2.5, 5×2.5, 6×2.5)',
+      'WPC Designer Doors (26mm–32mm, 7 ft × 38 in)',
+      'WPC Boards (6mm to 18mm)',
+      'Interior & Exterior PVC / WPC Wall Panels',
+      'CNC Jali Boards & Interior Solutions',
+      'Mosquito Mesh Doors, Grills & OBEN Hardware',
       'Complete Architectural Package',
     ];
+
+    useEffect(() => {
+      if (initialProductInterest) {
+        const matched = productOptions.find((opt) =>
+          opt.toLowerCase().includes(initialProductInterest.toLowerCase().slice(0, 14))
+        );
+        setFormData((prev) => ({
+          ...prev,
+          product: matched || initialProductInterest,
+        }));
+      }
+    }, [initialProductInterest]);
 
     const handleSubmit = (e: React.FormEvent) => {
       e.preventDefault();
@@ -84,7 +97,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
               <span className="italic font-normal text-[#8E7752]">Our Studio.</span>
             </h2>
             <p className="text-sm sm:text-base text-[#6B6964] font-light leading-relaxed">
-              Visit our Gudivada workshop or send us your architectural blueprints for tailored sizing, wood selection, and quote estimates.
+              Visit our Gudivada showroom or send us your site dimensions for tailored UPVC windows & doors, WPC frames & boards, PVC/WPC wall panels, and CNC Jali quote estimates.
             </p>
           </div>
 
@@ -212,7 +225,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
                           name: '',
                           phone: '',
                           email: '',
-                          product: 'Premium Main Doors',
+                          product: productOptions[0],
                           message: '',
                         });
                       }}
@@ -300,7 +313,7 @@ export const ContactSection = forwardRef<HTMLElement, ContactSectionProps>(
                         rows={4}
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        placeholder="Tell us about your door, window, or grill requirements, approximate sizes, or site location..."
+                        placeholder="Tell us about your UPVC window tracks, WPC frame/door dimensions, wall panels, or CNC Jali requirements..."
                         className="w-full px-4 py-3 rounded-xl bg-white border border-[#DFD8CC] text-sm focus:outline-none focus:border-[#8E7752] transition-colors resize-none"
                       />
                     </div>

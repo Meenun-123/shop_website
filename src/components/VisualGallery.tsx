@@ -12,12 +12,17 @@ export const VisualGallery: React.FC<VisualGalleryProps> = ({ onPhotoClick }) =>
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [visibleCount, setVisibleCount] = useState<number>(18);
 
+  const upvcCount = allGalleryPhotos.filter((p) => p.tag === 'UPVC').length;
+  const wpcCount = allGalleryPhotos.filter((p) => p.tag === 'WPC').length;
+  const panelsCount = allGalleryPhotos.filter((p) => p.tag === 'Panels & Interiors').length;
+  const meshCount = allGalleryPhotos.filter((p) => p.tag === 'Mesh & Hardware').length;
+
   const categories = [
     { id: 'all', label: `All Designs (${allGalleryPhotos.length})` },
-    { id: 'Doors', label: 'Doors & Entrances' },
-    { id: 'Grills', label: 'Architectural Grills' },
-    { id: 'Windows', label: 'Windows & Glazing' },
-    { id: 'Hardware & Frames', label: 'Hardware & Frames' },
+    { id: 'UPVC', label: `UPVC Windows & Doors (${upvcCount})` },
+    { id: 'WPC', label: `WPC Frames, Doors & Boards (${wpcCount})` },
+    { id: 'Panels & Interiors', label: `Wall Panels & Interiors (${panelsCount})` },
+    { id: 'Mesh & Hardware', label: `Mesh Doors & Hardware (${meshCount})` },
   ];
 
   const filteredPhotos = allGalleryPhotos.filter((p) => {
@@ -50,7 +55,7 @@ export const VisualGallery: React.FC<VisualGalleryProps> = ({ onPhotoClick }) =>
           </div>
 
           <p className="max-w-md text-[#6B6964] text-sm sm:text-base leading-relaxed">
-            Authentic photographs directly from our Gudivada workshop and client installations. Click any piece to inspect in high resolution.
+            Authentic photographs directly from our Gudivada showroom and client installations — accurately grouped by UPVC, WPC, Wall Panels, and Mesh Doors.
           </p>
         </div>
 

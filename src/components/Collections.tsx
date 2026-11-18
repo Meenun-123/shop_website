@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Ruler } from 'lucide-react';
 import { collectionsData, type CollectionItem } from '../data/businessData';
 
 interface CollectionsProps {
@@ -12,26 +12,22 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
 
   const filterTabs = [
     { id: 'all', label: 'All Collections' },
-    { id: 'doors', label: 'Doors & Entrances' },
-    { id: 'grills', label: 'Safety Grills' },
-    { id: 'windows', label: 'Windows & Glazing' },
-    { id: 'frames', label: 'Frames & Interiors' },
+    { id: 'upvc', label: 'UPVC Windows & Doors' },
+    { id: 'wpc', label: 'WPC Frames, Doors & Boards' },
+    { id: 'panels', label: 'Wall Panels & CNC Jali' },
+    { id: 'mesh', label: 'Mesh Doors & Hardware' },
   ];
 
   const filteredItems = collectionsData.filter((item) => {
     if (activeFilter === 'all') return true;
-    if (activeFilter === 'doors') return item.id.includes('door') && !item.id.includes('frame');
-    if (activeFilter === 'grills') return item.id.includes('grill');
-    if (activeFilter === 'windows') return item.id.includes('window');
-    if (activeFilter === 'frames') return item.id.includes('frame') || item.id.includes('interior');
-    return true;
+    return item.categoryGroup === activeFilter;
   });
 
   return (
     <section id="collections" className="py-28 sm:py-36 bg-[#EAE6DD] text-[#20201E] relative">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
               <span className="w-8 h-[1px] bg-[#B7A17B]" />
@@ -41,13 +37,46 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
             </div>
             <h2 className="font-serif text-4xl sm:text-6xl text-[#20201E] tracking-tight leading-[1.08]">
               Explore Our <br />
-              <span className="italic font-normal text-[#8E7752]">Architectural Collections.</span>
+              <span className="italic font-normal text-[#8E7752]">UPVC, WPC & Panel Collections.</span>
             </h2>
           </div>
 
           <p className="max-w-md text-[#6B6964] text-sm sm:text-base leading-relaxed">
-            Each collection is manufactured with structural precision and curated materials — offering complete customization for private residences, commercial spaces, and architectural villas.
+            Precision UPVC windows & doors, waterproof WPC frames, doors & boards, and interior/exterior PVC & WPC wall panels and CNC Jali boards — engineered for lasting architectural elegance.
           </p>
+        </div>
+
+        {/* Exact Specifications Quick-Reference Strip */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+          <div className="p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
+            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-2">
+              <Ruler className="w-3.5 h-3.5" />
+              <span>UPVC Products</span>
+            </div>
+            <p className="text-xs text-[#20201E] leading-relaxed">
+              <strong>Sliding:</strong> 2 Track, 2.5 Track, 3 Track &bull; <strong>Openable:</strong> Casement Doors & Windows &bull; <strong>Utility:</strong> Fixed Frames, Partitions, Ventilators & Louvers.
+            </p>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
+            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-2">
+              <Ruler className="w-3.5 h-3.5" />
+              <span>WPC Frames, Doors & Boards</span>
+            </div>
+            <p className="text-xs text-[#20201E] leading-relaxed">
+              <strong>Frames:</strong> 3×2, 4×2, 4×2.5, 5×2.5, 6×2.5 (18–32mm) &bull; <strong>Doors:</strong> 26mm–32mm (Size 7 ft × 38 in) &bull; <strong>Boards:</strong> 6mm to 18mm.
+            </p>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-[#F5F2EB] border border-[#DFD8CC]">
+            <div className="flex items-center gap-2 text-[#8E7752] text-[10px] uppercase tracking-[0.22em] font-bold mb-2">
+              <Ruler className="w-3.5 h-3.5" />
+              <span>Interior & Exterior PVC / WPC</span>
+            </div>
+            <p className="text-xs text-[#20201E] leading-relaxed">
+              <strong>Architectural Surfaces:</strong> Interior & Exterior PVC / WPC Wall Panels, Fluted Louvers & Custom <strong>CNC Jali Boards</strong>.
+            </p>
+          </div>
         </div>
 
         {/* Filter Navigation Tabs */}
@@ -71,7 +100,7 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
         <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <AnimatePresence>
             {filteredItems.map((item, index) => {
-              const isFeatured = index === 0 || index === 6;
+              const isFeatured = activeFilter === 'all' && (index === 0 || index === 6);
 
               return (
                 <motion.div
@@ -79,7 +108,7 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{ duration: 0.6, delay: index * 0.08 }}
+                  transition={{ duration: 0.6, delay: index * 0.06 }}
                   key={item.id}
                   onClick={() => onSelectCollection(item)}
                   className={`group cursor-pointer rounded-2xl overflow-hidden bg-[#F5F2EB] flex flex-col justify-between border border-[#DFD8CC] transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl ${
@@ -100,7 +129,7 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
                     />
 
                     {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-70 group-hover:opacity-85 transition-opacity" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-transparent opacity-75 group-hover:opacity-90 transition-opacity" />
 
                     {/* Category Index Number Badge */}
                     <div className="absolute top-5 left-5 px-3 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[#20201E] text-[11px] font-mono tracking-wider font-semibold">
@@ -108,11 +137,11 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCollection }) 
                     </div>
 
                     {/* Quick Specs Pill on hover */}
-                    <div className="absolute bottom-5 left-5 right-5 flex flex-wrap items-center gap-2 opacity-90 transition-opacity">
+                    <div className="absolute bottom-5 left-5 right-5 flex flex-wrap items-center gap-2 opacity-95 transition-opacity">
                       {item.specs.slice(0, 2).map((spec, i) => (
                         <span
                           key={i}
-                          className="px-2.5 py-1 rounded bg-black/40 backdrop-blur-md text-white/90 text-[10px] tracking-wide font-medium border border-white/10"
+                          className="px-2.5 py-1 rounded bg-black/50 backdrop-blur-md text-white/95 text-[10px] tracking-wide font-medium border border-white/15"
                         >
                           {spec}
                         </span>

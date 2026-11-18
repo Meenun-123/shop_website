@@ -10,19 +10,19 @@ interface HeroProps {
 
 const heroSlides = [
   {
-    image: './images/gallery/vse-photo-001.jpg',
-    tag: 'Bespoke Entrances',
-    subtitle: 'Handcrafted Teak & Architectural Pivot Doors',
-  },
-  {
     image: './images/gallery/vse-photo-002.jpg',
-    tag: 'Architectural Security',
-    subtitle: 'Precision Laser-Cut Grills & Facade Enclosures',
+    tag: 'UPVC Windows & Doors',
+    subtitle: '2 Track, 2.5 Track & 3 Track Sliding, Casement & Louvers',
   },
   {
-    image: './images/gallery/vse-photo-003.jpg',
-    tag: 'Modern Glazing',
-    subtitle: 'Acoustic Aluminium & UPVC Window Systems',
+    image: './images/gallery/vse-photo-023.jpg',
+    tag: 'WPC Frames & Doors',
+    subtitle: 'Waterproof 18mm–32mm WPC Frames, Doors & 6mm–18mm Boards',
+  },
+  {
+    image: './images/gallery/vse-photo-060.jpg',
+    tag: 'PVC & WPC Wall Panels',
+    subtitle: 'Interior & Exterior Wall Panels & Precision CNC Jali Boards',
   },
 ];
 
@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onStoryClick }) => {
             className="hidden md:flex items-center gap-3 text-xs tracking-[0.2em] uppercase text-white/70"
           >
             <Compass className="w-3.5 h-3.5 text-[#B7A17B]" />
-            <span>Architecture &bull; Doors &bull; Windows &bull; Grills</span>
+            <span>UPVC &bull; WPC Frames & Doors &bull; Wall Panels &bull; CNC Jali</span>
           </motion.div>
         </div>
 
@@ -91,7 +91,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onStoryClick }) => {
             transition={{ duration: 0.9, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           >
             <span className="inline-block text-[#B7A17B] text-xs sm:text-sm uppercase tracking-[0.35em] font-medium mb-4">
-              Architectural Craftsmanship Since Establishment
+              Premium UPVC, WPC & Architectural Solutions
             </span>
           </motion.div>
 
@@ -163,7 +163,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onStoryClick }) => {
           <div className="flex items-center gap-6 text-xs text-white/60">
             <div className="hidden lg:flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-[#B7A17B]" />
-              <span>Proprietor Akuri Vaasu &bull; Custom Fabrication</span>
+              <span>Proprietor Akuri Vaasu &bull; Gudivada Studio</span>
             </div>
 
             <a

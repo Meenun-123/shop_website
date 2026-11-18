@@ -3,6 +3,7 @@ import galleryImages from '../galleryData.json';
 export interface CollectionItem {
   id: string;
   number: string;
+  categoryGroup: 'upvc' | 'wpc' | 'panels' | 'mesh';
   title: string;
   shortDesc: string;
   fullDesc: string;
@@ -28,14 +29,14 @@ export const businessInfo = {
   role: "Proprietor & Principal Consultant",
   headline: "Spaces Deserve Something Extraordinary.",
   subheadline:
-    "Discover thoughtfully crafted doors, windows, precision architectural grills and interior solutions that bring elegance, functionality and character to every space.",
+    "Discover premium UPVC windows & doors, waterproof WPC frames, doors & boards, interior & exterior PVC/WPC wall panels, CNC Jali boards, and precision mesh solutions built to last.",
   phonePrimary: "+91 90004 57378",
   phonePrimaryRaw: "9000457378",
   phoneSecondary: "+91 83418 49597",
   phoneSecondaryRaw: "8341849597",
   whatsappNumber: "+91 90004 57378",
   whatsappLink:
-    "https://wa.me/919000457378?text=Hello%20Vijaya%20Sai%20Enterprises%2C%20I%20would%20like%20to%20enquire%20about%20your%20doors%2C%20windows%2C%20and%20architectural%20grills.",
+    "https://wa.me/919000457378?text=Hello%20Vijaya%20Sai%20Enterprises%2C%20I%20would%20like%20to%20enquire%20about%20your%20UPVC%20windows%20%26%20doors%2C%20WPC%20frames%2C%20doors%2C%20boards%2C%20and%20wall%20panels.",
   email: "vijayasaienterprises.gdv@gmail.com",
   address: {
     landmark: "Opp : Old Muncipal Office, Beside Zandu Street",
@@ -56,142 +57,232 @@ export const businessInfo = {
 
 export const collectionsData: CollectionItem[] = [
   {
-    id: "premium-main-doors",
+    id: "upvc-sliding-windows-doors",
     number: "01",
-    title: "Premium Main Doors",
-    shortDesc: "Grand architectural entrance doors crafted from seasoned teak wood, modern pivot systems, and security cores.",
+    categoryGroup: "upvc",
+    title: "UPVC Sliding Windows & Doors",
+    shortDesc: "Premium quality UPVC sliding systems available in 2 Track, 2.5 Track, and 3 Track configurations with smooth glide rollers.",
     fullDesc:
-      "Your entrance makes the definitive statement of your home. Our main doors combine robust security engineering with sculptural woodworking, available in solid teak, contemporary pivot designs, and brass/copper metal accents.",
-    image: "./images/gallery/vse-photo-001.jpg",
-    specs: ["Burma & Teak Wood", "Heavy Pivot & Ball-bearing Hinges", "Multi-point Security Locks", "Custom Carvings & Flush Panels"],
-    features: ["Weather-sealed acoustic gaskets", "Termite & moisture treated", "Custom oversized architectural heights"],
-  },
-  {
-    id: "designer-wooden-doors",
-    number: "02",
-    title: "Designer Wooden Doors",
-    shortDesc: "Timeless natural wood grains, contemporary groove patterns, and sculpted solid timber construction.",
-    fullDesc:
-      "Crafted from premium kiln-dried hardwoods with hand-finished stains. Featuring minimalist horizontal grooves, geometric veneers, and classic raised paneling tailored to modern luxury residences.",
-    image: "./images/gallery/vse-photo-004.jpg",
-    specs: ["Selected Hardwoods & Veneers", "Low-VOC Polyurethane Finish", "Sound Transmission Class (STC) 34+", "Concealed Magnetic Latches"],
-    features: ["Natural grain alignment", "Warp-resistant laminated core", "Choice of matte, satin, or gloss lacquer"],
-  },
-  {
-    id: "modern-interior-doors",
-    number: "03",
-    title: "Modern Interior Doors",
-    shortDesc: "Sleek flush doors, minimalist acoustic bedroom doors, and textured contemporary finishes.",
-    fullDesc:
-      "Seamlessly integrating into contemporary interior walls. Designed with acoustic hollow or tubular cores, precision rebated edges, and soft-closing concealed mechanisms.",
-    image: "./images/gallery/vse-photo-009.jpg",
-    specs: ["Engineered Solid Core", "Frameless Flush / Architrave options", "Scratch-resistant laminate/veneer", "Concealed 3D Adjustable Hinges"],
-    features: ["Acoustic dampening", "Lightweight yet structural integrity", "Minimalist European handle suites"],
-  },
-  {
-    id: "aluminium-windows",
-    number: "04",
-    title: "Aluminium Windows",
-    shortDesc: "Ultra-slim architectural sightlines, thermal break efficiency, and panoramic floor-to-ceiling glass.",
-    fullDesc:
-      "Engineered with aerospace-grade aluminium extrusions and durable powder-coat or anodized finishes. Maximizes natural light while keeping out heat, wind, and monsoon rain.",
-    image: "./images/gallery/vse-photo-003.jpg",
-    specs: ["Thermal Break Aluminium 6063-T6", "Double / Triple DGU Glass", "EPDM Triple Gasket Seal", "Wind Load Certified up to 2.5 kPa"],
-    features: ["Ultra-slim frame profiles", "Anodized champagne & charcoal finishes", "Smooth whisper-glide rollers"],
-  },
-  {
-    id: "upvc-windows",
-    number: "05",
-    title: "UPVC Windows",
-    shortDesc: "High-performance energy-saving UPVC casement, tilt-and-turn, and fixed glazing solutions.",
-    fullDesc:
-      "Engineered multi-chamber UPVC profiles with steel reinforcement. Delivers unmatched noise reduction up to 40dB, zero corrosion in coastal and humid climates, and thermal insulation that lowers cooling bills.",
-    image: "./images/gallery/vse-photo-008.jpg",
-    specs: ["Multi-chamber Lead-Free UPVC", "Galvanized Steel Reinforcements", "Acoustic Laminated Glass", "Multi-point Espagnolette Locks"],
-    features: ["Maintenance-free UV stabilized", "Weatherproof rain channels", "Integrated mosquito wire mesh option"],
-  },
-  {
-    id: "sliding-windows",
-    number: "06",
-    title: "Sliding Windows & Balcony Systems",
-    shortDesc: "Effortless heavy-duty 2-track and 3-track sliding systems with integrated stainless steel mesh.",
-    fullDesc:
-      "Ideal for expansive living room vistas and bedroom balconies. Featuring heavy-duty stainless steel tracks, precision nylon bearing rollers, and concealed multi-lock handles.",
-    image: "./images/gallery/vse-photo-013.jpg",
-    specs: ["2-Track, 3-Track & 4-Track Configurations", "SS 304 Heavy-duty Rollers", "Toughened Safety Glass (6mm - 12mm)", "Interlocking Weather Brushes"],
-    features: ["Integrated flyscreen/mesh track", "High water-tightness threshold", "Smooth fingertip glide operation"],
-  },
-  {
-    id: "architectural-grills",
-    number: "07",
-    title: "Architectural Safety Grills",
-    shortDesc: "Precision laser-cut patterns, wrought iron accents, and high-tensile security grills that complement modern facades.",
-    fullDesc:
-      "Security meets sculptural architecture. Designed with CNC laser precision cutting, stainless steel, and powder-coated wrought iron to safeguard your home without sacrificing ventilation or aesthetics.",
+      "Engineered for modern homes and balconies, our premium UPVC sliding windows and doors deliver effortless glide operation, superior rain and dust sealing, and optional integrated mosquito mesh tracks in white or rich wood-grain laminates.",
     image: "./images/gallery/vse-photo-002.jpg",
-    specs: ["SS 304 / SS 316 / Mild Steel", "CNC Laser Cut Geometrics & Floral Motifs", "Zinc Epoxy Undercoat + Electrostatic Powder Coat", "Tamper-proof Wall Anchors"],
-    features: ["Rust & corrosion resistant", "Custom pattern scalability", "Seamless integration with window & door frames"],
+    specs: [
+      "Sliding Tracks: 2 Track, 2.5 Track & 3 Track",
+      "Multi-Chamber Steel-Reinforced UPVC",
+      "Integrated Mosquito Mesh Track Option",
+      "White, Dark Walnut & Golden Oak Finishes",
+    ],
+    features: [
+      "Up to 40dB acoustic noise reduction",
+      "Weatherproof rain drainage channels",
+      "UV-stabilized & zero-corrosion profiles",
+    ],
   },
   {
-    id: "door-frames-accessories",
+    id: "upvc-openable-casement",
+    number: "02",
+    categoryGroup: "upvc",
+    title: "UPVC Openable Casement Doors & Windows",
+    shortDesc: "Precision openable single and double casement doors and windows with airtight multi-point locking.",
+    fullDesc:
+      "Designed for maximum ventilation, natural daylight, and airtight security. Our openable UPVC casement doors and windows feature heavy-duty hinges, EPDM double gasket sealing, and multi-point espagnolette locking systems.",
+    image: "./images/gallery/vse-photo-004.jpg",
+    specs: [
+      "Openable Casement Doors & Windows",
+      "Single, Double & French Door Configurations",
+      "Heavy-Duty OBEN Handles & Multi-Point Locks",
+      "Double / Single Toughened Safety Glass",
+    ],
+    features: [
+      "Airtight thermal insulation lowers AC bills",
+      "Full 90°–180° opening clearance",
+      "Zero warping, swelling, or repainting required",
+    ],
+  },
+  {
+    id: "upvc-fixed-partitions-ventilators",
+    number: "03",
+    categoryGroup: "upvc",
+    title: "UPVC Fixed Frames, Partitions, Ventilators & Louvers",
+    shortDesc: "Architectural UPVC fixed frames, room & office partitions, bathroom exhaust ventilators, and glass louvers.",
+    fullDesc:
+      "Complete UPVC glazing solutions for stairwells, corridors, washrooms, and commercial cabins. Available as fixed view frames, sound-insulated partitions, exhaust-fan ventilators, and angled louvers for continuous airflow.",
+    image: "./images/gallery/vse-photo-013.jpg",
+    specs: [
+      "Fixed Glass Frames & Architectural Partitions",
+      "Exhaust-Ready Bathroom & Utility Ventilators",
+      "Adjustable Glass & UPVC Louvers",
+      "Clear, Frosted, Tinted & Reflective Glazing",
+    ],
+    features: [
+      "Moisture & rust proof for wet areas",
+      "Custom sizes fabricated to exact site openings",
+      "Clean, minimal sightlines with high strength",
+    ],
+  },
+  {
+    id: "wpc-door-frames",
+    number: "04",
+    categoryGroup: "wpc",
+    title: "WPC Door Frames (18mm to 32mm)",
+    shortDesc: "100% waterproof, termite-proof solid WPC frames available in 3×2, 4×2, 4×2.5, 5×2.5, and 6×2.5 dimensions.",
+    fullDesc:
+      "Replace traditional timber frames with high-density solid Wood Polymer Composite (WPC) frames. Engineered for lifelong resistance against termites, moisture, rot, and seasonal expansion while delivering superior screw-holding strength.",
+    image: "./images/gallery/vse-photo-059.jpg",
+    specs: [
+      "Frame Dimensions: 3×2, 4×2, 4×2.5, 5×2.5, 6×2.5",
+      "WPC Range Thickness: 18mm to 32mm Available",
+      "100% Waterproof & Termite-Proof Solid Core",
+      "High Screw-Holding & Zero Bending",
+    ],
+    features: [
+      "Ready to install with direct wall fixing",
+      "Accepts paints, polish, veneers & laminates",
+      "Ideal for main rooms, bedrooms & bathrooms",
+    ],
+  },
+  {
+    id: "wpc-designer-doors",
+    number: "05",
+    categoryGroup: "wpc",
+    title: "WPC Designer Doors (26mm to 32mm)",
+    shortDesc: "Precision-crafted WPC doors in 26mm to 32mm thickness, sizes up to 7 ft × 38 inches with CNC & designer finishes.",
+    fullDesc:
+      "Combining durability with luxury styling, our WPC doors come in 26mm to 32mm thickness and sizes up to 7 ft × 38 inches. Choose from CNC-routed grooves, digital decorative motifs, T-patti accents, and rich wood-grain finishes.",
+    image: "./images/gallery/vse-photo-023.jpg",
+    specs: [
+      "Door Thickness: 26mm to 32mm",
+      "Door Size: 7 ft × 38 inches (Custom Sizes Available)",
+      "CNC Routed, Grooved & Designer Art Finishes",
+      "100% Moisture, Termite & Borer Resistant",
+    ],
+    features: [
+      "Never swells or jams during monsoon season",
+      "Sound-dampening solid composite core",
+      "Pairs seamlessly with matching WPC frames",
+    ],
+  },
+  {
+    id: "wpc-boards",
+    number: "06",
+    categoryGroup: "wpc",
+    title: "WPC Boards (6mm to 18mm)",
+    shortDesc: "High-density WPC boards from 6mm to 18mm thickness for modular kitchens, wardrobes, and architectural millwork.",
+    fullDesc:
+      "Versatile, eco-friendly Wood Polymer Composite boards ranging from 6mm to 18mm thickness. Ideal for humid kitchens, bathroom vanities, wardrobes, ceiling work, and precision CNC routing with smooth, uniform density.",
+    image: "./images/gallery/vse-photo-110.jpg",
+    specs: [
+      "Board Thickness: 6mm to 18mm Available",
+      "High-Density Lead-Free WPC Composite",
+      "Waterproof, Fire-Retardant & Anti-Termite",
+      "Smooth Surface for Laminate, Paint or CNC",
+    ],
+    features: [
+      "Zero delamination in wet environments",
+      "Clean edge machining without splintering",
+      "Long-lasting alternative to plywood & MDF",
+    ],
+  },
+  {
+    id: "pvc-wpc-wall-panels",
+    number: "07",
+    categoryGroup: "panels",
+    title: "Interior & Exterior PVC / WPC Wall Panels",
+    shortDesc: "Architectural interior and exterior PVC & WPC fluted wall panels and louvers for contemporary living spaces.",
+    fullDesc:
+      "Elevate interior feature walls, TV units, ceilings, and exterior building elevations with our premium PVC and WPC fluted wall panels. Available in rich matte woods, charcoal tones, and UV-protected exterior grades.",
+    image: "./images/gallery/vse-photo-060.jpg",
+    specs: [
+      "Interior & Exterior Grade PVC & WPC Panels",
+      "Fluted Louvers, Charcoal & Wood Textures",
+      "UV-Stabilized Weatherproof Exterior Options",
+      "Concealed Interlocking Installation System",
+    ],
+    features: [
+      "Quick, dust-free wall transformation",
+      "Waterproof, washable & termite-free",
+      "Adds acoustic warmth and architectural depth",
+    ],
+  },
+  {
+    id: "cnc-jali-boards",
     number: "08",
-    title: "Door Frames & Hardware",
-    shortDesc: "Seasoned solid wood frames, heavy UPVC/aluminium sub-frames, and premium architectural hardware.",
+    categoryGroup: "panels",
+    title: "CNC Jali Boards & Interior Solutions",
+    shortDesc: "Precision CNC-cut WPC & PVC Jali boards, room dividers, pooja mandir screens, and custom modular wardrobes.",
     fullDesc:
-      "A superior door requires an immaculate frame. We manufacture precision jambs, architraves, and provide luxury hardware suites including solid brass pulls, digital mortise locks, and magnetic door stoppers.",
-    image: "./images/gallery/vse-photo-005.jpg",
-    specs: ["Teak & Sal Wood / Heavy UPVC Jambs", "Solid Brass, Matt Black & Champagne Gold Finishes", "Heavy Duty Hydraulic Concealed Closers", "Smart Digital & Biometric Locks"],
-    features: ["Precision mitered corners", "Rubber acoustic rebate seals", "Long-term dimensional stability"],
+      "Bespoke CNC Jali boards crafted from waterproof WPC and PVC sheets for interior partitions, pooja rooms, staircase screens, ceiling accents, and exterior elevation facades — alongside modern sliding wardrobes and vanity interiors.",
+    image: "./images/gallery/vse-photo-057.jpg",
+    specs: [
+      "Precision CNC Routed WPC & PVC Jali Boards",
+      "Interior Partitions & Exterior Facade Screens",
+      "Custom Geometric, Floral & Traditional Motifs",
+      "Matching Modular Wardrobes & Wall Cladding",
+    ],
+    features: [
+      "Weatherproof for outdoor balconies & facades",
+      "Crisp, burr-free precision CNC detailing",
+      "Custom thickness from 6mm to 18mm WPC boards",
+    ],
   },
   {
-    id: "interior-solutions",
+    id: "mesh-doors-hardware",
     number: "09",
-    title: "Interior Solutions & Partitions",
-    shortDesc: "Acoustic glass office partitions, decorative fluted paneling, and custom architectural room dividers.",
+    categoryGroup: "mesh",
+    title: "Mosquito Mesh Doors, Safety Grills & Hardware",
+    shortDesc: "Pleated, hinged & bi-fold mosquito mesh doors, integrated window grills, and OBEN UPVC architectural hardware.",
     fullDesc:
-      "Transform interior spaces with tailored glass partitions, slim aluminium room dividers, and fluted architectural timber panels that divide rooms while preserving openness and natural illumination.",
-    image: "./images/gallery/vse-photo-010.jpg",
-    specs: ["Slimline Aluminium Grid Partitions", "Fluted / Frosted / Tinted Glass", "Architectural Wood Wall Paneling", "Sliding Pocket Glass Dividers"],
-    features: ["Modular flexible installation", "High acoustic privacy", "Sophisticated minimalist ambiance"],
+      "Complete protection and airflow for your home. We supply custom-fitted pleated, hinged, and bi-fold stainless steel mosquito mesh doors, integrated security grills, and genuine OBEN sliding & casement hardware.",
+    image: "./images/gallery/vse-photo-125.jpg",
+    specs: [
+      "Hinged, Bi-Fold & Sliding Mosquito Mesh Doors",
+      "Heavy-Duty Powder-Coated Frames & SS Mesh",
+      "Genuine OBEN Casement & Sliding Hardware",
+      "Custom-Fitted to Main Doors & Windows",
+    ],
+    features: [
+      "Unobstructed airflow while keeping insects out",
+      "Rust-resistant mesh & durable hinges",
+      "Clean finish matching UPVC and WPC frames",
+    ],
   },
 ];
 
 export const featuredProjects: ProjectItem[] = [
   {
     id: "project-1",
-    title: "Grand Teak Residence",
-    category: "Main Entrance & Safety Grills",
+    title: "Walnut Finish UPVC Glazing Suite",
+    category: "UPVC 2.5 & 3 Track Sliding & Casement",
     location: "Gudivada, Krishna District",
-    description: "Custom oversized 8.5-foot Burma teak pivot door paired with an integrated geometric laser-cut safety enclosure.",
-    image: "./images/gallery/vse-photo-006.jpg",
-    specs: ["Burma Teak", "CNC Laser Cut SS 304", "Heavy Pivot Hardware"],
+    description: "Complete dark walnut wood-finish UPVC sliding windows, openable casement units, and fixed lower glazing installed for maximum daylight and acoustic comfort.",
+    image: "./images/gallery/vse-photo-003.jpg",
+    specs: ["UPVC 2.5 & 3 Track", "Wood-Grain Laminate", "Acoustic Glazing"],
   },
   {
     id: "project-2",
-    title: "The Glass Villa",
-    category: "Aluminium Glazing & Windows",
+    title: "Modern UPVC Casement & Partition Villa",
+    category: "UPVC Openable Doors, Fixed Frames & Ventilators",
     location: "Vijayawada Outskirts",
-    description: "Floor-to-ceiling slimline sliding window systems with heat-reflective solar glass and acoustic dampening.",
-    image: "./images/gallery/vse-photo-011.jpg",
-    specs: ["6063-T6 Aluminium", "DGU Acoustic Glass", "3-Track Sliding with Mesh"],
+    description: "Double openable white UPVC French casement doors paired with multi-chamber sliding balconies and exhaust ventilators.",
+    image: "./images/gallery/vse-photo-004.jpg",
+    specs: ["Openable Casement", "Multi-Point OBEN Locks", "Thermal Insulation"],
   },
   {
     id: "project-3",
-    title: "Contemporary Urban Penthouse",
-    category: "Interior Flush Doors & Frames",
+    title: "WPC Designer Door & Solid Frame Residence",
+    category: "WPC Frames (5×2.5) & 32mm Designer Doors",
     location: "Gudivada City Centre",
-    description: "Minimalist handleless flush wooden doors with concealed magnetic latches and custom textured natural veneers.",
-    image: "./images/gallery/vse-photo-016.jpg",
-    specs: ["Engineered Solid Core", "Concealed 3D Hinges", "Matt Polyurethane Finish"],
+    description: "100% waterproof and termite-proof WPC door frames paired with 32mm CNC-routed and designer doors engineered for lifelong dimensional stability.",
+    image: "./images/gallery/vse-photo-027.jpg",
+    specs: ["WPC 32mm Door", "5×2.5 WPC Frame", "100% Waterproof"],
   },
   {
     id: "project-4",
-    title: "Serene Garden Courtyard",
-    category: "UPVC Casement & Balcony Grills",
-    location: "Machilipatnam Highway",
-    description: "Multi-chamber UPVC French doors and weatherproof architectural safety grills overlooking landscaped courtyards.",
-    image: "./images/gallery/vse-photo-021.jpg",
-    specs: ["Multi-chamber UPVC", "Toughened 8mm Glass", "Anti-Corrosion Powder Coating"],
+    title: "Architectural Mesh Doors & PVC Wall Panels",
+    category: "Bi-Fold Mesh Doors & Interior Fluted Panels",
+    location: "Krishna District Residence",
+    description: "Custom bi-fold and hinged mosquito mesh doors fitted seamlessly across entrances alongside fluted WPC/PVC interior wall paneling.",
+    image: "./images/gallery/vse-photo-125.jpg",
+    specs: ["Bi-Fold SS Mesh", "PVC/WPC Wall Panels", "CNC Jali Accents"],
   },
 ];
 
@@ -199,22 +290,22 @@ export const whyChooseUsData = [
   {
     number: "01",
     title: "Quality Craftsmanship",
-    desc: "Every door, window frame, and safety grill is fabricated using seasoned woods, certified metal extrusions, and rigorous attention to joints, tolerances, and surface finishing.",
+    desc: "Every UPVC window, WPC frame, designer door, and wall panel is fabricated using lead-free profiles, high-density waterproof composites, and precision hardware.",
   },
   {
     number: "02",
     title: "Thoughtful Design",
-    desc: "We balance timeless architectural aesthetics with effortless functionality — maximizing daylight, ventilation, ease of operation, and long-term durability.",
+    desc: "We balance modern architectural aesthetics with everyday performance — maximizing ventilation, acoustic calm, weatherproofing, and termite-free longevity.",
   },
   {
     number: "03",
     title: "Reliable Solutions",
-    desc: "From precise on-site measurements in Gudivada and surrounding regions to tailored engineering advice, we ensure hassle-free execution without compromise.",
+    desc: "From exact site measurements in Gudivada and Krishna District to customized 2/2.5/3-track UPVC and 3×2 to 6×2.5 WPC frame sizing, we deliver accurate fits.",
   },
   {
     number: "04",
     title: "Customer Satisfaction",
-    desc: "Direct guidance from proprietor Akuri Vaasu and our experienced fabrication team, ensuring transparent communication, custom sizing, and dependable after-sales care.",
+    desc: "Direct guidance from proprietor Akuri Vaasu and our experienced team, ensuring transparent product selection, genuine OBEN fittings, and dependable after-sales support.",
   },
 ];
 

@@ -20,7 +20,7 @@ export function App() {
   const [filteredPhotoList, setFilteredPhotoList] = useState<GalleryPhoto[]>(
     allGalleryPhotos as GalleryPhoto[]
   );
-  const [inquiryProduct, setInquiryProduct] = useState<string>('Premium Main Doors');
+  const [inquiryProduct, setInquiryProduct] = useState<string>('UPVC Sliding Windows & Doors (2 / 2.5 / 3 Track)');
 
   const contactRef = useRef<HTMLElement>(null);
 

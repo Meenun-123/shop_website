@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
             <BrandLogo variant="light" size="lg" showTagline={true} />
 
             <p className="text-sm text-white/70 font-light leading-relaxed max-w-sm">
-              Specialists in luxury architectural doors, aluminium & UPVC windows, precision safety grills, and custom interior solutions. Crafted with seasoned timbers and engineered accuracy.
+              Specialists in premium UPVC windows & doors, waterproof WPC frames, doors & boards, interior & exterior PVC/WPC wall panels, CNC Jali boards, and mosquito mesh solutions.
             </p>
 
             <div className="pt-2 text-xs text-white/50 space-y-1">
@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
           </p>
 
           <div className="flex items-center gap-6">
-            <span>Doors &bull; Windows &bull; Grills &bull; Interiors</span>
+            <span>UPVC &bull; WPC Frames & Doors &bull; Wall Panels &bull; CNC Jali</span>
 
             <button
               onClick={scrollToTop}
